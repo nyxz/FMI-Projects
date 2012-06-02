@@ -1,0 +1,12 @@
+ArcGIS project:
+
+Theme: WCF Service
+Technologies: .NET and Silverlight
+
+Purpose:
+
+Client should be able to query the geo-database through the service.
+The application should provide methods that:
+* search in the different layers (Cities, Highways, States, Counties) by layer attributes
+* make geo-spatial search for Cities in area, pointed by X and Y coordinates and a Buffer
+* make geo-spatial search in layer by layer (Cities that is in bounds of some State)
