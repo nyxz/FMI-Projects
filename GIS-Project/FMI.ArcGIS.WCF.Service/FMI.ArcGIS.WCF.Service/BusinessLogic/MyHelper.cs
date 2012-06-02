@@ -19,8 +19,18 @@ namespace FMI.ArcGIS.WCF.Service
 
         public static IFeatureClass GetLayer(string layer)
         {
-            IWorkspace workspace = GetWorkspace();
-            return (workspace as IFeatureWorkspace).OpenFeatureClass(layer);
+            try
+            {
+                IWorkspace workspace = GetWorkspace();
+                return (workspace as IFeatureWorkspace).OpenFeatureClass(layer);
+            }
+            finally
+            {
+                if (null != workspace)
+                {
+                    Marshal.ReleaseComObject(workspace);
+                }
+            }
         }
 
         public static IWorkspace GetWorkspace()
