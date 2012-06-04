@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="FMI.ArcGIS.WCF.Service.USAService" CodeBehind="USAService.svc.cs" %>

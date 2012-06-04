@@ -1,0 +1,178 @@
+﻿<UserControl x:Class="FMI.ArcGIS.WCF.Service.ClientApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:slData="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Data"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="3000" d:DesignWidth="600">
+
+    <Grid x:Name="LayoutRoot" Background="White">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="40"/>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/> <!-- 0 -->
+            <RowDefinition Height="40" /> <!-- 1 -->
+            <RowDefinition Height="40" /> <!-- 2 -->
+            <RowDefinition Height="40" /> <!-- 3 -->
+            <RowDefinition Height="40" /> <!-- 4 -->
+            <RowDefinition Height="200" /> <!-- 5 -->
+            <RowDefinition Height="40" /> <!-- 6 -->
+            <RowDefinition Height="40" /> <!-- 7 -->
+            <RowDefinition Height="40" /> <!-- 8 -->
+            <RowDefinition Height="40" /> <!-- 9 -->
+            <RowDefinition Height="40" /> <!-- 10 -->
+            <RowDefinition Height="40" /> <!-- 11 -->
+            <RowDefinition Height="40" /> <!-- 12 -->
+            <RowDefinition Height="40" /> <!-- 13 -->
+            <RowDefinition Height="200" /> <!-- 14 -->
+            <RowDefinition Height="40" /> <!-- 15 -->
+            <RowDefinition Height="40" /> <!-- 16 -->
+            <RowDefinition Height="40" /> <!-- 17 -->
+            <RowDefinition Height="40" /> <!-- 18 -->
+            <RowDefinition Height="40" /> <!-- 19 -->
+            <RowDefinition Height="40" /> <!-- 20 -->
+            <RowDefinition Height="40" /> <!-- 21 -->
+            <RowDefinition Height="40" /> <!-- 22 -->
+            <RowDefinition Height="200" /> <!-- 23 -->
+            <RowDefinition Height="40" /> <!-- 24 -->
+            <RowDefinition Height="40" /> <!-- 25 -->
+            <RowDefinition Height="40" /> <!-- 26 -->
+            <RowDefinition Height="40" /> <!-- 27 -->
+            <RowDefinition Height="40" /> <!-- 28 -->
+            <RowDefinition Height="40" /> <!-- 29 -->
+            <RowDefinition Height="200" /> <!-- 30 -->
+            <RowDefinition Height="40" /> <!-- 31 -->
+            <RowDefinition Height="40" /> <!-- 32 -->
+            <RowDefinition Height="40" /> <!-- 33 -->
+            <RowDefinition Height="40" /> <!-- 34 -->
+            <RowDefinition Height="40" /> <!-- 35 -->
+            <RowDefinition Height="40" /> <!-- 36 -->
+            <RowDefinition Height="40" /> <!-- 37 -->
+            <RowDefinition Height="200" /> <!-- 38 -->
+            <RowDefinition Height="40" /> <!-- 39 -->
+            <RowDefinition Height="40" /> <!-- 40 -->
+            <RowDefinition Height="40" /> <!-- 41 -->
+            <RowDefinition Height="40" /> <!-- 42 -->
+            <RowDefinition Height="200" /> <!-- 43 -->
+            <RowDefinition Height="40" /> <!-- 44 -->
+            <RowDefinition Height="40" /> <!-- 45 -->
+            <RowDefinition Height="40" /> <!-- 46 -->
+        </Grid.RowDefinitions>
+
+        <!-- search with buffer -->
+        <TextBlock Grid.Column="2" Grid.Row="0" Text="Search by coordinates and buffer" HorizontalAlignment="Center" VerticalAlignment="Bottom"  FontWeight="Bold" FontSize="12"/>
+        
+        <TextBlock Grid.Column="1" Grid.Row="1" Text="X:" HorizontalAlignment="Right" />
+        <TextBox x:Name="xTextBox" Grid.Column="2" Grid.Row="1" Text="-120" />
+
+        <TextBlock Grid.Column="1" Grid.Row="2" Text="Y:" HorizontalAlignment="Right" />
+        <TextBox x:Name="yTextBox" Grid.Column="2" Grid.Row="2" Text="40" />
+
+        <TextBlock Grid.Column="1" Grid.Row="3" Text="d:" HorizontalAlignment="Right" />
+        <TextBox x:Name="dTextBox" Grid.Column="2" Grid.Row="3" Text="5" />
+
+        <Button x:Name="searchButton" Grid.Column="2" Grid.Row="4" Content="Search" Click="searchButton_Click" />
+
+        <slData:DataGrid x:Name="citiesGrid" AutoGenerateColumns="True" Grid.Column="2" Grid.Row="5" />
+
+        <!-- search by attributes -->
+
+        <!-- search cities -->
+        <TextBlock Grid.Column="2" Grid.Row="7" Text="Search Cities by attributes" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontWeight="Bold" FontSize="12"/>
+
+        <TextBlock Grid.Column="1" Grid.Row="8" Text="AREANAME:" HorizontalAlignment="Right" />
+        <TextBox x:Name="areaNameTextBox" Grid.Column="2" Grid.Row="8" Text="Washington" />
+
+        <TextBlock Grid.Column="1" Grid.Row="9" Text="STATE:" HorizontalAlignment="Right" />
+        <TextBox x:Name="stateTextBox" Grid.Column="2" Grid.Row="9" Text="DC" />
+
+        <TextBlock Grid.Column="1" Grid.Row="10" Text="CLASS:" HorizontalAlignment="Right" />
+        <TextBox x:Name="classTextBox" Grid.Column="2" Grid.Row="10" Text="city" />
+
+        <TextBlock Grid.Column="1" Grid.Row="11" Text="CAPITAL:" HorizontalAlignment="Right" />
+        <TextBox x:Name="capitalTextBox" Grid.Column="2" Grid.Row="11" Text="Y" />
+
+        <TextBlock Grid.Column="1" Grid.Row="12" Text="POP2000:" HorizontalAlignment="Right" />
+        <TextBox x:Name="pop2000TextBox" Grid.Column="2" Grid.Row="12" Text="" />
+
+        <Button x:Name="searchCities" Grid.Column="2" Grid.Row="13" Content="Search Cities" Click="searchCities_Click" />
+
+        <slData:DataGrid x:Name="foundCitiesGrid" AutoGenerateColumns="True" Grid.Column="2" Grid.Row="14" />
+
+        
+        <!-- search highways -->
+        <TextBlock Grid.Column="2" Grid.Row="16" Text="Search Highways by attributes" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontWeight="Bold" FontSize="12"/>
+        
+        <TextBlock Grid.Column="1" Grid.Row="17" Text="LENGTH gt :" HorizontalAlignment="Right" />
+        <TextBox x:Name="lengthBottomTextBox" Grid.Column="2" Grid.Row="17" Text="500.00" />
+
+        <TextBlock Grid.Column="1" Grid.Row="18" Text="LENGTH lt :" HorizontalAlignment="Right" />
+        <TextBox x:Name="lengthTopTextBox" Grid.Column="2" Grid.Row="18" Text="2000.00" />
+
+        <TextBlock Grid.Column="1" Grid.Row="19" Text="ADMN. CLASS:" HorizontalAlignment="Right" />
+        <TextBox x:Name="admnClassTextBox" Grid.Column="2" Grid.Row="19" Text="Interstate" />
+
+        <TextBlock Grid.Column="1" Grid.Row="20" Text="RTE_NUM:" HorizontalAlignment="Right" />
+        <TextBox x:Name="rtNumTextBox" Grid.Column="2" Grid.Row="20" Text="45" />
+
+        <TextBlock Grid.Column="1" Grid.Row="21" Text="ROUTE:" HorizontalAlignment="Right" />
+        <TextBox x:Name="routeTextBox" Grid.Column="2" Grid.Row="21" Text="" />
+
+        <Button x:Name="searchHighways" Grid.Column="2" Grid.Row="22" Content="Search Highways" Click="searchHighways_Click" />
+
+        <slData:DataGrid x:Name="foundHighwaysGrid" AutoGenerateColumns="True" Grid.Column="2" Grid.Row="23" />
+        
+        
+        <!-- search states -->
+        <TextBlock Grid.Column="2" Grid.Row="25" Text="Search States by attributes" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontWeight="Bold" FontSize="12"/>
+
+        <TextBlock Grid.Column="1" Grid.Row="26" Text="State Name :" HorizontalAlignment="Right" />
+        <TextBox x:Name="stateNameTextBox" Grid.Column="2" Grid.Row="26" Text="" />
+
+        <TextBlock Grid.Column="1" Grid.Row="27" Text="Sub Region :" HorizontalAlignment="Right" />
+        <TextBox x:Name="subRegionTextBox" Grid.Column="2" Grid.Row="27" Text="" />
+
+        <TextBlock Grid.Column="1" Grid.Row="28" Text="State Abbr. :" HorizontalAlignment="Right" />
+        <TextBox x:Name="stateAbbrTextBox" Grid.Column="2" Grid.Row="28" Text="" />
+
+        <Button x:Name="searchStates" Grid.Column="2" Grid.Row="29" Content="Search States" Click="searchStates_Click" />
+
+        <slData:DataGrid x:Name="foundStatesGrid" AutoGenerateColumns="True" Grid.Column="2" Grid.Row="30" />
+        
+        
+        <!-- search counties -->
+        <TextBlock Grid.Column="2" Grid.Row="32" Text="Search Counties by attributes" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontWeight="Bold" FontSize="12"/>
+
+        <TextBlock Grid.Column="1" Grid.Row="33" Text="County Name :" HorizontalAlignment="Right" />
+        <TextBox x:Name="countyNameTextBox" Grid.Column="2" Grid.Row="33" Text="" />
+
+        <TextBlock Grid.Column="1" Grid.Row="34" Text="County's State Name :" HorizontalAlignment="Right" />
+        <TextBox x:Name="countyStateNameTextBox" Grid.Column="2" Grid.Row="34" Text="" />
+
+        <TextBlock Grid.Column="1" Grid.Row="35" Text="Area gt :" HorizontalAlignment="Right" />
+        <TextBox x:Name="countyAreaGTTextBox" Grid.Column="2" Grid.Row="35" Text="" />
+
+        <TextBlock Grid.Column="1" Grid.Row="36" Text="Area lt :" HorizontalAlignment="Right" />
+        <TextBox x:Name="countyAreaLTTextBox" Grid.Column="2" Grid.Row="36" Text="" />
+
+        <Button x:Name="searchCounties" Grid.Column="2" Grid.Row="37" Content="Search Counties" Click="searchCounties_Click" />
+        
+        <slData:DataGrid x:Name="foundCountiesGrid" AutoGenerateColumns="True" Grid.Column="2" Grid.Row="38" />
+
+        
+        <!-- search cities by state (geospatial) -->
+        <TextBlock Grid.Column="2" Grid.Row="40" Text="Search Cities by state abbr." HorizontalAlignment="Center" VerticalAlignment="Bottom" FontWeight="Bold" FontSize="12"/>
+
+        <TextBlock Grid.Column="1" Grid.Row="41" Text="State Abbr. :" HorizontalAlignment="Right" />
+        <TextBox x:Name="stateAbbr" Grid.Column="2" Grid.Row="41" Text="AK" />
+
+        <Button x:Name="searchCityByState" Grid.Column="2" Grid.Row="42" Content="Search" Click="searchCityByState_Click" />
+
+        <slData:DataGrid x:Name="cityByStateGrid" AutoGenerateColumns="True" Grid.Column="2" Grid.Row="43" />
+    </Grid>
+</UserControl>

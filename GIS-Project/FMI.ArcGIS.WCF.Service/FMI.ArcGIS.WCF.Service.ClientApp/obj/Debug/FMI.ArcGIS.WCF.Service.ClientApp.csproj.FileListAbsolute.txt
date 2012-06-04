@@ -1,0 +1,607 @@
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\FMI.ArcGIS.WCF.Service.ClientApp.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\FMI.ArcGIS.WCF.Service.ClientApp.pdb
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\AppManifest.xaml
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\FMI.ArcGIS.WCF.Service.ClientApp.xap
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\FMI.ArcGIS.WCF.Service.ClientAppTestPage.html
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\obj\Debug\ResolveAssemblyReference.cache
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\obj\Debug\App.g.i.cs
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\obj\Debug\MainPage.g.i.cs
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\obj\Debug\FMI.ArcGIS.WCF.Service.ClientApp.g.resources
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\obj\Debug\FMI.ArcGIS.WCF.Service.ClientApp.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\obj\Debug\FMI.ArcGIS.WCF.Service.ClientApp.pdb
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\obj\Debug\XapCacheFile.xml
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\System.Windows.Controls.Data.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\System.Windows.Controls.Data.Input.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\System.Windows.Data.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\System.Windows.Controls.Data.xml
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\System.Windows.Controls.Data.Input.xml
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\System.ComponentModel.DataAnnotations.xml
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\System.Windows.Data.xml
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ar\System.Windows.Controls.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\bg\System.Windows.Controls.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ca\System.Windows.Controls.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\cs\System.Windows.Controls.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\da\System.Windows.Controls.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\de\System.Windows.Controls.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\el\System.Windows.Controls.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\es\System.Windows.Controls.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\et\System.Windows.Controls.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\eu\System.Windows.Controls.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\fi\System.Windows.Controls.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\fr\System.Windows.Controls.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\he\System.Windows.Controls.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\hr\System.Windows.Controls.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\hu\System.Windows.Controls.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\id\System.Windows.Controls.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\it\System.Windows.Controls.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ja\System.Windows.Controls.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ko\System.Windows.Controls.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\lt\System.Windows.Controls.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\lv\System.Windows.Controls.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ms\System.Windows.Controls.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\nl\System.Windows.Controls.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\no\System.Windows.Controls.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\pl\System.Windows.Controls.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\pt\System.Windows.Controls.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\pt-BR\System.Windows.Controls.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ro\System.Windows.Controls.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ru\System.Windows.Controls.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sk\System.Windows.Controls.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sl\System.Windows.Controls.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sv\System.Windows.Controls.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\th\System.Windows.Controls.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\tr\System.Windows.Controls.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\uk\System.Windows.Controls.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\vi\System.Windows.Controls.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\zh-Hans\System.Windows.Controls.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\zh-Hant\System.Windows.Controls.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ar\System.Windows.Controls.Data.Input.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\bg\System.Windows.Controls.Data.Input.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ca\System.Windows.Controls.Data.Input.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\cs\System.Windows.Controls.Data.Input.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\da\System.Windows.Controls.Data.Input.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\de\System.Windows.Controls.Data.Input.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\el\System.Windows.Controls.Data.Input.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\es\System.Windows.Controls.Data.Input.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\et\System.Windows.Controls.Data.Input.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\eu\System.Windows.Controls.Data.Input.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\fi\System.Windows.Controls.Data.Input.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\fr\System.Windows.Controls.Data.Input.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\he\System.Windows.Controls.Data.Input.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\hr\System.Windows.Controls.Data.Input.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\hu\System.Windows.Controls.Data.Input.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\id\System.Windows.Controls.Data.Input.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\it\System.Windows.Controls.Data.Input.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ja\System.Windows.Controls.Data.Input.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ko\System.Windows.Controls.Data.Input.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\lt\System.Windows.Controls.Data.Input.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\lv\System.Windows.Controls.Data.Input.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ms\System.Windows.Controls.Data.Input.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\nl\System.Windows.Controls.Data.Input.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\no\System.Windows.Controls.Data.Input.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\pl\System.Windows.Controls.Data.Input.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\pt\System.Windows.Controls.Data.Input.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\pt-BR\System.Windows.Controls.Data.Input.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ro\System.Windows.Controls.Data.Input.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ru\System.Windows.Controls.Data.Input.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sk\System.Windows.Controls.Data.Input.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sl\System.Windows.Controls.Data.Input.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Data.Input.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Data.Input.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sv\System.Windows.Controls.Data.Input.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\th\System.Windows.Controls.Data.Input.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\tr\System.Windows.Controls.Data.Input.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\uk\System.Windows.Controls.Data.Input.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\vi\System.Windows.Controls.Data.Input.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\zh-Hans\System.Windows.Controls.Data.Input.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\zh-Hant\System.Windows.Controls.Data.Input.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ar\System.ComponentModel.DataAnnotations.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\bg\System.ComponentModel.DataAnnotations.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ca\System.ComponentModel.DataAnnotations.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\cs\System.ComponentModel.DataAnnotations.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\da\System.ComponentModel.DataAnnotations.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\de\System.ComponentModel.DataAnnotations.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\el\System.ComponentModel.DataAnnotations.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\es\System.ComponentModel.DataAnnotations.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\et\System.ComponentModel.DataAnnotations.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\eu\System.ComponentModel.DataAnnotations.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\fi\System.ComponentModel.DataAnnotations.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\fr\System.ComponentModel.DataAnnotations.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\he\System.ComponentModel.DataAnnotations.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\hr\System.ComponentModel.DataAnnotations.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\hu\System.ComponentModel.DataAnnotations.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\id\System.ComponentModel.DataAnnotations.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\it\System.ComponentModel.DataAnnotations.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ja\System.ComponentModel.DataAnnotations.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ko\System.ComponentModel.DataAnnotations.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\lt\System.ComponentModel.DataAnnotations.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\lv\System.ComponentModel.DataAnnotations.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ms\System.ComponentModel.DataAnnotations.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\nl\System.ComponentModel.DataAnnotations.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\no\System.ComponentModel.DataAnnotations.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\pl\System.ComponentModel.DataAnnotations.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\pt\System.ComponentModel.DataAnnotations.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\pt-BR\System.ComponentModel.DataAnnotations.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ro\System.ComponentModel.DataAnnotations.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ru\System.ComponentModel.DataAnnotations.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sk\System.ComponentModel.DataAnnotations.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sl\System.ComponentModel.DataAnnotations.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sr-Cyrl-CS\System.ComponentModel.DataAnnotations.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sr-Latn-CS\System.ComponentModel.DataAnnotations.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sv\System.ComponentModel.DataAnnotations.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\th\System.ComponentModel.DataAnnotations.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\tr\System.ComponentModel.DataAnnotations.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\uk\System.ComponentModel.DataAnnotations.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\vi\System.ComponentModel.DataAnnotations.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\zh-Hans\System.ComponentModel.DataAnnotations.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\zh-Hant\System.ComponentModel.DataAnnotations.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\de\System.Windows.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\es\System.Windows.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\fr\System.Windows.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\it\System.Windows.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ja\System.Windows.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ko\System.Windows.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ru\System.Windows.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\zh-Hans\System.Windows.Data.resources.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\zh-Hant\System.Windows.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\FMI.ArcGIS.WCF.Service.ClientApp.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\FMI.ArcGIS.WCF.Service.ClientApp.pdb
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\AppManifest.xaml
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\FMI.ArcGIS.WCF.Service.ClientApp.xap
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\FMI.ArcGIS.WCF.Service.ClientAppTestPage.html
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\System.Windows.Controls.Data.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\System.Windows.Controls.Data.Input.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\System.Windows.Data.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\System.Windows.Controls.Data.xml
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\System.Windows.Controls.Data.Input.xml
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\System.ComponentModel.DataAnnotations.xml
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\System.Windows.Data.xml
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ar\System.Windows.Controls.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\bg\System.Windows.Controls.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ca\System.Windows.Controls.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\cs\System.Windows.Controls.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\da\System.Windows.Controls.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\de\System.Windows.Controls.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\el\System.Windows.Controls.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\es\System.Windows.Controls.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\et\System.Windows.Controls.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\eu\System.Windows.Controls.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\fi\System.Windows.Controls.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\fr\System.Windows.Controls.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\he\System.Windows.Controls.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\hr\System.Windows.Controls.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\hu\System.Windows.Controls.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\id\System.Windows.Controls.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\it\System.Windows.Controls.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ja\System.Windows.Controls.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ko\System.Windows.Controls.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\lt\System.Windows.Controls.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\lv\System.Windows.Controls.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ms\System.Windows.Controls.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\nl\System.Windows.Controls.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\no\System.Windows.Controls.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\pl\System.Windows.Controls.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\pt\System.Windows.Controls.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\pt-BR\System.Windows.Controls.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ro\System.Windows.Controls.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ru\System.Windows.Controls.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sk\System.Windows.Controls.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sl\System.Windows.Controls.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sv\System.Windows.Controls.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\th\System.Windows.Controls.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\tr\System.Windows.Controls.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\uk\System.Windows.Controls.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\vi\System.Windows.Controls.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\zh-Hans\System.Windows.Controls.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\zh-Hant\System.Windows.Controls.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ar\System.Windows.Controls.Data.Input.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\bg\System.Windows.Controls.Data.Input.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ca\System.Windows.Controls.Data.Input.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\cs\System.Windows.Controls.Data.Input.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\da\System.Windows.Controls.Data.Input.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\de\System.Windows.Controls.Data.Input.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\el\System.Windows.Controls.Data.Input.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\es\System.Windows.Controls.Data.Input.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\et\System.Windows.Controls.Data.Input.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\eu\System.Windows.Controls.Data.Input.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\fi\System.Windows.Controls.Data.Input.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\fr\System.Windows.Controls.Data.Input.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\he\System.Windows.Controls.Data.Input.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\hr\System.Windows.Controls.Data.Input.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\hu\System.Windows.Controls.Data.Input.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\id\System.Windows.Controls.Data.Input.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\it\System.Windows.Controls.Data.Input.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ja\System.Windows.Controls.Data.Input.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ko\System.Windows.Controls.Data.Input.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\lt\System.Windows.Controls.Data.Input.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\lv\System.Windows.Controls.Data.Input.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ms\System.Windows.Controls.Data.Input.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\nl\System.Windows.Controls.Data.Input.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\no\System.Windows.Controls.Data.Input.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\pl\System.Windows.Controls.Data.Input.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\pt\System.Windows.Controls.Data.Input.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\pt-BR\System.Windows.Controls.Data.Input.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ro\System.Windows.Controls.Data.Input.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ru\System.Windows.Controls.Data.Input.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sk\System.Windows.Controls.Data.Input.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sl\System.Windows.Controls.Data.Input.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Data.Input.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Data.Input.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sv\System.Windows.Controls.Data.Input.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\th\System.Windows.Controls.Data.Input.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\tr\System.Windows.Controls.Data.Input.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\uk\System.Windows.Controls.Data.Input.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\vi\System.Windows.Controls.Data.Input.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\zh-Hans\System.Windows.Controls.Data.Input.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\zh-Hant\System.Windows.Controls.Data.Input.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ar\System.ComponentModel.DataAnnotations.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\bg\System.ComponentModel.DataAnnotations.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ca\System.ComponentModel.DataAnnotations.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\cs\System.ComponentModel.DataAnnotations.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\da\System.ComponentModel.DataAnnotations.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\de\System.ComponentModel.DataAnnotations.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\el\System.ComponentModel.DataAnnotations.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\es\System.ComponentModel.DataAnnotations.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\et\System.ComponentModel.DataAnnotations.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\eu\System.ComponentModel.DataAnnotations.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\fi\System.ComponentModel.DataAnnotations.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\fr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\he\System.ComponentModel.DataAnnotations.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\hr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\hu\System.ComponentModel.DataAnnotations.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\id\System.ComponentModel.DataAnnotations.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\it\System.ComponentModel.DataAnnotations.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ja\System.ComponentModel.DataAnnotations.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ko\System.ComponentModel.DataAnnotations.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\lt\System.ComponentModel.DataAnnotations.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\lv\System.ComponentModel.DataAnnotations.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ms\System.ComponentModel.DataAnnotations.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\nl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\no\System.ComponentModel.DataAnnotations.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\pl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\pt\System.ComponentModel.DataAnnotations.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\pt-BR\System.ComponentModel.DataAnnotations.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ro\System.ComponentModel.DataAnnotations.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ru\System.ComponentModel.DataAnnotations.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sk\System.ComponentModel.DataAnnotations.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sr-Cyrl-CS\System.ComponentModel.DataAnnotations.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sr-Latn-CS\System.ComponentModel.DataAnnotations.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sv\System.ComponentModel.DataAnnotations.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\th\System.ComponentModel.DataAnnotations.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\tr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\uk\System.ComponentModel.DataAnnotations.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\vi\System.ComponentModel.DataAnnotations.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\zh-Hans\System.ComponentModel.DataAnnotations.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\zh-Hant\System.ComponentModel.DataAnnotations.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\de\System.Windows.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\es\System.Windows.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\fr\System.Windows.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\it\System.Windows.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ja\System.Windows.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ko\System.Windows.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ru\System.Windows.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\zh-Hans\System.Windows.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\zh-Hant\System.Windows.Data.resources.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\obj\Debug\App.g.i.cs
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\obj\Debug\MainPage.g.i.cs
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\obj\Debug\FMI.ArcGIS.WCF.Service.ClientApp.g.resources
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\obj\Debug\FMI.ArcGIS.WCF.Service.ClientApp.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\obj\Debug\FMI.ArcGIS.WCF.Service.ClientApp.pdb
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\obj\Debug\XapCacheFile.xml
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\FMI.ArcGIS.WCF.Service.ClientApp.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\FMI.ArcGIS.WCF.Service.ClientApp.pdb
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\AppManifest.xaml
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\FMI.ArcGIS.WCF.Service.ClientApp.xap
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\FMI.ArcGIS.WCF.Service.ClientAppTestPage.html
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\System.Windows.Controls.Data.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\System.Windows.Controls.Data.Input.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\System.Windows.Data.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\System.Windows.Controls.Data.xml
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\System.Windows.Controls.Data.Input.xml
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\System.ComponentModel.DataAnnotations.xml
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\System.Windows.Data.xml
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ar\System.Windows.Controls.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\bg\System.Windows.Controls.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ca\System.Windows.Controls.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\cs\System.Windows.Controls.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\da\System.Windows.Controls.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\de\System.Windows.Controls.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\el\System.Windows.Controls.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\es\System.Windows.Controls.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\et\System.Windows.Controls.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\eu\System.Windows.Controls.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\fi\System.Windows.Controls.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\fr\System.Windows.Controls.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\he\System.Windows.Controls.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\hr\System.Windows.Controls.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\hu\System.Windows.Controls.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\id\System.Windows.Controls.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\it\System.Windows.Controls.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ja\System.Windows.Controls.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ko\System.Windows.Controls.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\lt\System.Windows.Controls.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\lv\System.Windows.Controls.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ms\System.Windows.Controls.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\nl\System.Windows.Controls.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\no\System.Windows.Controls.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\pl\System.Windows.Controls.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\pt\System.Windows.Controls.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\pt-BR\System.Windows.Controls.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ro\System.Windows.Controls.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ru\System.Windows.Controls.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sk\System.Windows.Controls.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sl\System.Windows.Controls.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sv\System.Windows.Controls.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\th\System.Windows.Controls.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\tr\System.Windows.Controls.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\uk\System.Windows.Controls.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\vi\System.Windows.Controls.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\zh-Hans\System.Windows.Controls.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\zh-Hant\System.Windows.Controls.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ar\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\bg\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ca\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\cs\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\da\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\de\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\el\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\es\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\et\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\eu\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\fi\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\fr\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\he\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\hr\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\hu\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\id\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\it\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ja\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ko\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\lt\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\lv\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ms\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\nl\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\no\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\pl\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\pt\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\pt-BR\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ro\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ru\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sk\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sl\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sv\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\th\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\tr\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\uk\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\vi\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\zh-Hans\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\zh-Hant\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ar\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\bg\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ca\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\cs\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\da\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\de\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\el\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\es\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\et\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\eu\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\fi\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\fr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\he\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\hr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\hu\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\id\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\it\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ja\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ko\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\lt\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\lv\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ms\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\nl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\no\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\pl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\pt\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\pt-BR\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ro\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ru\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sk\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sr-Cyrl-CS\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sr-Latn-CS\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sv\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\th\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\tr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\uk\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\vi\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\zh-Hans\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\zh-Hant\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\de\System.Windows.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\es\System.Windows.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\fr\System.Windows.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\it\System.Windows.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ja\System.Windows.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ko\System.Windows.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ru\System.Windows.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\zh-Hans\System.Windows.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\zh-Hant\System.Windows.Data.resources.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\obj\Debug\App.g.i.cs
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\obj\Debug\MainPage.g.i.cs
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\obj\Debug\FMI.ArcGIS.WCF.Service.ClientApp.g.resources
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\obj\Debug\FMI.ArcGIS.WCF.Service.ClientApp.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\obj\Debug\FMI.ArcGIS.WCF.Service.ClientApp.pdb
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\obj\Debug\XapCacheFile.xml
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\obj\Debug\App.g.i.cs
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\obj\Debug\MainPage.g.i.cs
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\obj\Debug\FMI.ArcGIS.WCF.Service.ClientApp.g.resources
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\obj\Debug\FMI.ArcGIS.WCF.Service.ClientApp.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\FMI.ArcGIS.WCF.Service.ClientApp.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\FMI.ArcGIS.WCF.Service.ClientApp.pdb
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\AppManifest.xaml
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\FMI.ArcGIS.WCF.Service.ClientApp.xap
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\FMI.ArcGIS.WCF.Service.ClientAppTestPage.html
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\System.Windows.Controls.Data.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\System.Windows.Controls.Data.Input.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\System.Windows.Data.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\System.Windows.Controls.Data.xml
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\System.Windows.Controls.Data.Input.xml
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\System.ComponentModel.DataAnnotations.xml
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\System.Windows.Data.xml
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ar\System.Windows.Controls.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\bg\System.Windows.Controls.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ca\System.Windows.Controls.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\cs\System.Windows.Controls.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\da\System.Windows.Controls.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\de\System.Windows.Controls.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\el\System.Windows.Controls.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\es\System.Windows.Controls.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\et\System.Windows.Controls.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\eu\System.Windows.Controls.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\fi\System.Windows.Controls.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\fr\System.Windows.Controls.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\he\System.Windows.Controls.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\hr\System.Windows.Controls.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\hu\System.Windows.Controls.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\id\System.Windows.Controls.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\it\System.Windows.Controls.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ja\System.Windows.Controls.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ko\System.Windows.Controls.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\lt\System.Windows.Controls.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\lv\System.Windows.Controls.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ms\System.Windows.Controls.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\nl\System.Windows.Controls.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\no\System.Windows.Controls.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\pl\System.Windows.Controls.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\pt\System.Windows.Controls.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\pt-BR\System.Windows.Controls.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ro\System.Windows.Controls.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ru\System.Windows.Controls.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sk\System.Windows.Controls.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sl\System.Windows.Controls.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sv\System.Windows.Controls.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\th\System.Windows.Controls.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\tr\System.Windows.Controls.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\uk\System.Windows.Controls.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\vi\System.Windows.Controls.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\zh-Hans\System.Windows.Controls.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\zh-Hant\System.Windows.Controls.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ar\System.Windows.Controls.Data.Input.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\bg\System.Windows.Controls.Data.Input.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ca\System.Windows.Controls.Data.Input.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\cs\System.Windows.Controls.Data.Input.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\da\System.Windows.Controls.Data.Input.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\de\System.Windows.Controls.Data.Input.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\el\System.Windows.Controls.Data.Input.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\es\System.Windows.Controls.Data.Input.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\et\System.Windows.Controls.Data.Input.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\eu\System.Windows.Controls.Data.Input.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\fi\System.Windows.Controls.Data.Input.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\fr\System.Windows.Controls.Data.Input.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\he\System.Windows.Controls.Data.Input.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\hr\System.Windows.Controls.Data.Input.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\hu\System.Windows.Controls.Data.Input.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\id\System.Windows.Controls.Data.Input.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\it\System.Windows.Controls.Data.Input.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ja\System.Windows.Controls.Data.Input.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ko\System.Windows.Controls.Data.Input.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\lt\System.Windows.Controls.Data.Input.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\lv\System.Windows.Controls.Data.Input.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ms\System.Windows.Controls.Data.Input.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\nl\System.Windows.Controls.Data.Input.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\no\System.Windows.Controls.Data.Input.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\pl\System.Windows.Controls.Data.Input.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\pt\System.Windows.Controls.Data.Input.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\pt-BR\System.Windows.Controls.Data.Input.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ro\System.Windows.Controls.Data.Input.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ru\System.Windows.Controls.Data.Input.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sk\System.Windows.Controls.Data.Input.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sl\System.Windows.Controls.Data.Input.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Data.Input.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Data.Input.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sv\System.Windows.Controls.Data.Input.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\th\System.Windows.Controls.Data.Input.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\tr\System.Windows.Controls.Data.Input.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\uk\System.Windows.Controls.Data.Input.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\vi\System.Windows.Controls.Data.Input.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\zh-Hans\System.Windows.Controls.Data.Input.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\zh-Hant\System.Windows.Controls.Data.Input.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ar\System.ComponentModel.DataAnnotations.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\bg\System.ComponentModel.DataAnnotations.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ca\System.ComponentModel.DataAnnotations.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\cs\System.ComponentModel.DataAnnotations.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\da\System.ComponentModel.DataAnnotations.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\de\System.ComponentModel.DataAnnotations.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\el\System.ComponentModel.DataAnnotations.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\es\System.ComponentModel.DataAnnotations.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\et\System.ComponentModel.DataAnnotations.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\eu\System.ComponentModel.DataAnnotations.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\fi\System.ComponentModel.DataAnnotations.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\fr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\he\System.ComponentModel.DataAnnotations.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\hr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\hu\System.ComponentModel.DataAnnotations.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\id\System.ComponentModel.DataAnnotations.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\it\System.ComponentModel.DataAnnotations.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ja\System.ComponentModel.DataAnnotations.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ko\System.ComponentModel.DataAnnotations.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\lt\System.ComponentModel.DataAnnotations.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\lv\System.ComponentModel.DataAnnotations.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ms\System.ComponentModel.DataAnnotations.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\nl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\no\System.ComponentModel.DataAnnotations.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\pl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\pt\System.ComponentModel.DataAnnotations.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\pt-BR\System.ComponentModel.DataAnnotations.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ro\System.ComponentModel.DataAnnotations.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ru\System.ComponentModel.DataAnnotations.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sk\System.ComponentModel.DataAnnotations.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sr-Cyrl-CS\System.ComponentModel.DataAnnotations.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sr-Latn-CS\System.ComponentModel.DataAnnotations.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\sv\System.ComponentModel.DataAnnotations.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\th\System.ComponentModel.DataAnnotations.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\tr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\uk\System.ComponentModel.DataAnnotations.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\vi\System.ComponentModel.DataAnnotations.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\zh-Hans\System.ComponentModel.DataAnnotations.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\zh-Hant\System.ComponentModel.DataAnnotations.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\de\System.Windows.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\es\System.Windows.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\fr\System.Windows.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\it\System.Windows.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ja\System.Windows.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ko\System.Windows.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ru\System.Windows.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\zh-Hans\System.Windows.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\zh-Hant\System.Windows.Data.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\obj\Debug\FMI.ArcGIS.WCF.Service.ClientApp.pdb
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\obj\Debug\XapCacheFile.xml
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\System.Windows.Controls.Navigation.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\System.Windows.Controls.Navigation.xml
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\de\System.Windows.Controls.Navigation.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\es\System.Windows.Controls.Navigation.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\fr\System.Windows.Controls.Navigation.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\it\System.Windows.Controls.Navigation.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ja\System.Windows.Controls.Navigation.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ko\System.Windows.Controls.Navigation.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\ru\System.Windows.Controls.Navigation.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\zh-Hans\System.Windows.Controls.Navigation.resources.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service.ClientApp\Bin\Debug\zh-Hant\System.Windows.Controls.Navigation.resources.dll

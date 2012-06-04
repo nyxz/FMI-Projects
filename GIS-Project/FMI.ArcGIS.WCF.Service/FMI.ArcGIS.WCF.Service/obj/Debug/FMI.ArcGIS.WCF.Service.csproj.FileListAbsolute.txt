@@ -1,0 +1,25 @@
+C:\VS 2010 Projects\Temp\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service\bin\FMI.ArcGIS.WCF.Service.dll
+C:\VS 2010 Projects\Temp\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service\bin\FMI.ArcGIS.WCF.Service.pdb
+C:\VS 2010 Projects\Temp\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service\obj\Debug\ResolveAssemblyReference.cache
+C:\VS 2010 Projects\Temp\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service\obj\Debug\FMI.ArcGIS.WCF.Service.dll
+C:\VS 2010 Projects\Temp\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service\obj\Debug\FMI.ArcGIS.WCF.Service.pdb
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service\bin\FMI.ArcGIS.WCF.Service.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service\bin\FMI.ArcGIS.WCF.Service.pdb
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service\obj\Debug\ResolveAssemblyReference.cache
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service\obj\Debug\FMI.ArcGIS.WCF.Service.dll
+C:\VS 2010 Projects\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service\obj\Debug\FMI.ArcGIS.WCF.Service.pdb
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service\bin\FMI.ArcGIS.WCF.Service.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service\bin\FMI.ArcGIS.WCF.Service.pdb
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service\obj\Debug\FMI.ArcGIS.WCF.Service.dll
+C:\Projects & Documents\FMI\2011\Code\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service\obj\Debug\FMI.ArcGIS.WCF.Service.pdb
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service\bin\FMI.ArcGIS.WCF.Service.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service\bin\FMI.ArcGIS.WCF.Service.pdb
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service\obj\Debug\FMI.ArcGIS.WCF.Service.dll
+C:\Users\student\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service\obj\Debug\FMI.ArcGIS.WCF.Service.pdb
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service\bin\FMI.ArcGIS.WCF.Service.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service\bin\FMI.ArcGIS.WCF.Service.pdb
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service\obj\Debug\FMI.ArcGIS.WCF.Service.dll
+C:\Documents and Settings\maistora\Desktop\FMI.ArcGIS.WCF.Service\FMI.ArcGIS.WCF.Service\obj\Debug\FMI.ArcGIS.WCF.Service.pdb
