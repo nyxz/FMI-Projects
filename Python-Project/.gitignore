@@ -1,2 +1,4 @@
 *.swp
 *.directory
+*.swo
+*.pyc
