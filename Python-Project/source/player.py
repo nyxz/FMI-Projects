@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import pygame
+import gun
 
 class Player(pygame.sprite.Sprite):
 
@@ -9,6 +10,8 @@ class Player(pygame.sprite.Sprite):
         self.image = pygame.image.load('images/player.png')
         self.rect = pygame.rect.Rect(location, self.image.get_size())
         self.radius = 24
+        self.gun_cooldown = 0
+        self.gun_direction = -1
 
 
     def move(self, tick):
@@ -55,15 +58,20 @@ class Player(pygame.sprite.Sprite):
                 sprite.kill()
 
 
-    def shoot(self, gun, events):
-        for event in events: 
-            if event.type == pygame.KEYUP and event.key == pygame.K_SPACE:
-                print("Boom boom")
+    def shoot(self, gun1, events, dt, game):
+        #for event in events: 
+        #    if event.type == pygame.KEYUP and event.key == pygame.K_SPACE:
+        #        print("Boom boom")
         # gun.shoot()
+        key = pygame.key.get_pressed()
+        if key[pygame.K_SPACE] and not self.gun_cooldown:
+            gun.Gun(1, 1, False, self.rect.midtop, self.gun_direction, game.sprites)    
+            self.gun_cooldown = 0.3
+        self.gun_cooldown = max(0, self.gun_cooldown - dt)
         
 
     def update(self, tick, game):
         last_position = self.rect.copy()
         self.move(tick)
-        self.shoot(1, game.events)
+        self.shoot(1, game.events, tick, game)
         self.colliusion_detection(game, last_position)

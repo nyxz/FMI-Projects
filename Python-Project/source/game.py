@@ -9,20 +9,20 @@ class Game:
     def main(self, screen):
         print('Game started...')
         
-        background = pygame.image.load('images/bg_3.jpg')
+        background = pygame.image.load('images/background.png')
         player_image = pygame.image.load('images/player.png')    
 
         clock = pygame.time.Clock()
-        sprites = pygame.sprite.Group()
+        self.sprites = pygame.sprite.Group()
 
         self.enemies = self.load_enemies()
-        sprites.add(self.enemies)
+        self.sprites.add(self.enemies)
 
-        self.gamer = player.Player((400,500), 'gun1', 1, sprites)
-        sprites.add(self.gamer)
+        self.gamer = player.Player((400,500), 'gun1', 1, self.sprites)
+        self.sprites.add(self.gamer)
 
         self.walls = self.make_bounds()
-        sprites.add(self.walls)
+        self.sprites.add(self.walls)
 
         game_running = True
         while game_running:
@@ -33,22 +33,19 @@ class Game:
                     return
                 if event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
                     return
-                #if event.type == pygame.KEYUP:
-                #    self.gamer.image = player_image 
-            
 
-            sprites.update(tick / 1000., self)
+            self.sprites.update(tick / 1000., self)
             screen.blit(background, (0,0))
-            sprites.draw(screen)
+            self.sprites.draw(screen)
             pygame.display.flip()
 
 
     def make_bounds(self):
         walls = pygame.sprite.Group()
         wall_image = pygame.image.load('images/wall.png')
-        for x in range(0, 800, 1):
-            for y in range(0, 600, 1):
-                if x in (0, 800 - 1) or y in (0, 600 - 1):
+        for x in range(2, 1000, 1):
+            for y in range(2, 640, 1):
+                if x in (2, 1000 - 2) or y in (2, 640 - 2):
                     wall = pygame.sprite.Sprite(walls)
                     wall.image = wall_image 
                     wall.rect = pygame.rect.Rect((x, y), wall_image.get_size())
@@ -64,5 +61,5 @@ class Game:
 
 if __name__ == '__main__':
     pygame.init()
-    screen = pygame.display.set_mode((800,600), pygame.HWSURFACE|pygame.DOUBLEBUF)
+    screen = pygame.display.set_mode((1000,700), pygame.HWSURFACE|pygame.DOUBLEBUF)
     Game().main(screen)    

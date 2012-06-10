@@ -40,4 +40,4 @@ class Enemy(pygame.sprite.Sprite):
 
 
     def movement(self, tick):
-        self.rect.x += self.direction * 40 * tick
+        self.rect.x += self.direction * 100 * tick
