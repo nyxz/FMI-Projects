@@ -1,11 +1,15 @@
 #!/usr/bin/env python 
 
 import pygame
+import gun
+import random
 
 class Enemy(pygame.sprite.Sprite):
+
     image_1 = pygame.image.load('images/enemy_1.png')
     image_2 = pygame.image.load('images/enemy_2.png')
     image_3 = pygame.image.load('images/enemy_3.png')
+
 
     def __init__(self, location, level, *groups):
         super(Enemy, self).__init__(*groups)
@@ -13,6 +17,8 @@ class Enemy(pygame.sprite.Sprite):
         self.rect = pygame.rect.Rect(location, self.image.get_size())
         self.radius = 24
         self.direction = 1
+        self.gun_cooldown = 0
+
 
     def get_image_for_level(self, level):
         if level == 1:
@@ -26,6 +32,7 @@ class Enemy(pygame.sprite.Sprite):
     def update(self, tick, game):
         last_position = self.rect.copy()
         self.movement(tick)
+        self.shoot(game, tick)
         self.calusion_detection(game, last_position)
 
 
@@ -41,3 +48,11 @@ class Enemy(pygame.sprite.Sprite):
 
     def movement(self, tick):
         self.rect.x += self.direction * 100 * tick
+
+
+    def shoot(self, game, dt):
+        rand = random.randint(1, 100)
+        if rand == 100 and not self.gun_cooldown:
+            gun.Gun(2, 1, True, self.rect.midtop, 1, game.sprites)
+            self.gun_cooldown = 5
+        self.gun_cooldown = max(0, self.gun_cooldown - dt)

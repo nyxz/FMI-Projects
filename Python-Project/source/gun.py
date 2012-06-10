@@ -3,10 +3,9 @@
 import pygame
 
 class Gun(pygame.sprite.Sprite):
-    gun_1 = pygame.image.load('images/lazer.png')
-    gun_2 = pygame.image.load('images/lazer.png')
-    gun_3 = pygame.image.load('images/lazer.png')
-    gun_imgs = {1:gun_1, 2:gun_2, 3:gun_3}
+    gun_1 = pygame.image.load('images/lazer_green.png')
+    gun_2 = pygame.image.load('images/lazer_red.png')
+    gun_imgs = {1:gun_1, 2:gun_2}
 
     def __init__(self, gun, level, is_enemy, position, direction, *groups):
         super(Gun, self).__init__(*groups)
@@ -14,7 +13,6 @@ class Gun(pygame.sprite.Sprite):
         self.rect = pygame.rect.Rect(position, self.image.get_size())
         self.direction = direction
         self.power = self.get_power_by_gun_level(gun, level)
-        self.gun_cooldown = 1
         self.gun_life = 3
         self.is_enemy_bullet = is_enemy
 
@@ -38,6 +36,9 @@ class Gun(pygame.sprite.Sprite):
         for cell in pygame.sprite.spritecollide(self, game.enemies, not self.is_enemy_bullet):
             if not self.is_enemy_bullet and self.direction == -1:
                 self.kill()
+        if pygame.sprite.collide_circle(self, game.gamer) and self.is_enemy_bullet:
+            self.kill()
+            game.gamer.kill()
 
     def update(self, tick, game):
         self.movement(tick)

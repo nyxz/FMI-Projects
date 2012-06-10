@@ -66,7 +66,7 @@ class Player(pygame.sprite.Sprite):
         key = pygame.key.get_pressed()
         if key[pygame.K_SPACE] and not self.gun_cooldown:
             gun.Gun(1, 1, False, self.rect.midtop, self.gun_direction, game.sprites)    
-            self.gun_cooldown = 0.3
+            self.gun_cooldown = 0.4
         self.gun_cooldown = max(0, self.gun_cooldown - dt)
         
 

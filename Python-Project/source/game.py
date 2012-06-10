@@ -5,14 +5,14 @@ import player
 import enemy
 
 class Game:
-    
-    def main(self, screen):
-        print('Game started...')
-        
-        background = pygame.image.load('images/background.png')
-        player_image = pygame.image.load('images/player.png')    
 
-        clock = pygame.time.Clock()
+
+    def __init__(self):
+        self.score = 0
+        self.accuracy = 100.0
+        self.total = 0
+
+        self.clock = pygame.time.Clock()
         self.sprites = pygame.sprite.Group()
 
         self.enemies = self.load_enemies()
@@ -23,10 +23,17 @@ class Game:
 
         self.walls = self.make_bounds()
         self.sprites.add(self.walls)
+       
+        self.background = pygame.image.load('images/background2.png')
+        self.status_img = pygame.image.load('images/stats.png')
+
+    
+    def main(self, screen):
+        print('Game started...')
 
         game_running = True
         while game_running:
-            tick = clock.tick(40)
+            tick = self.clock.tick(40)
             self.events = pygame.event.get()
             for event in self.events:
                 if event.type == pygame.QUIT:
@@ -35,8 +42,10 @@ class Game:
                     return
 
             self.sprites.update(tick / 1000., self)
-            screen.blit(background, (0,0))
+            screen.blit(self.background, (0,0))
             self.sprites.draw(screen)
+            screen.blit(self.status_img, (0,640))
+
             pygame.display.flip()
 
 
