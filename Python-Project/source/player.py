@@ -2,23 +2,36 @@
 
 import pygame
 import gun
+import random
 
 class Player(pygame.sprite.Sprite):
 
-    def __init__(self, location, gun, gun_level, *groups):
+
+    def __init__(self, location, *groups):
         super(Player, self).__init__(*groups)
         self.image = pygame.image.load('images/player.png')
         self.rect = pygame.rect.Rect(location, self.image.get_size())
         self.radius = 24
         self.gun_cooldown = 0
+        self.gun_cooldown_delay = 0.4
         self.gun_direction = -1
+        self.gun_type_green = 1
+        self.gun_level = 1
+        self.gun_powers = (25, 50)
+        self.accuracy = 0
+        self.score = 0
+        self.total_score = 0
+        self.health = 100
+        self.move_speed = 300
 
 
-    def move(self, tick):
+    def __movement(self, tick):
         img_left = pygame.image.load('images/player_left.png')
         img_right = pygame.image.load('images/player_right.png')
         img_original = pygame.image.load('images/player.png')
-        step = 300 * tick
+
+        step = self.move_speed * tick
+
         key = pygame.key.get_pressed()
         if key[pygame.K_LEFT]:
             self.image = img_left
@@ -34,12 +47,13 @@ class Player(pygame.sprite.Sprite):
             self.rect.y += step
             if not (key[pygame.K_LEFT] or key[pygame.K_RIGHT]):
                 self.image = img_original
+
         for event in pygame.event.get():
             if event.type == pygame.KEYUP:
                 self.image = img_original
-            
 
-    def colliusion_detection(self, game, last):
+
+    def __collide_controller(self, game, last):
         new = self.rect
 
         for cell in pygame.sprite.spritecollide(self, game.walls, False):
@@ -58,20 +72,22 @@ class Player(pygame.sprite.Sprite):
                 sprite.kill()
 
 
-    def shoot(self, gun1, events, dt, game):
-        #for event in events: 
-        #    if event.type == pygame.KEYUP and event.key == pygame.K_SPACE:
-        #        print("Boom boom")
-        # gun.shoot()
+    def __shoot(self, gun1, events, dt, game):
         key = pygame.key.get_pressed()
         if key[pygame.K_SPACE] and not self.gun_cooldown:
-            gun.Gun(1, 1, False, self.rect.midtop, self.gun_direction, game.sprites)    
-            self.gun_cooldown = 0.4
+            gun_power = self.__get_gun_power()
+            gun.Gun(self.gun_type_green, gun_power, False, self.rect.midtop, self.gun_direction, game.sprites)    
+            self.gun_cooldown = self.gun_cooldown_delay
         self.gun_cooldown = max(0, self.gun_cooldown - dt)
         
 
+    def __get_gun_power(self):
+        rand = random.randint(self.gun_powers[0], self.gun_powers[1])
+        return rand
+
+
     def update(self, tick, game):
         last_position = self.rect.copy()
-        self.move(tick)
-        self.shoot(1, game.events, tick, game)
-        self.colliusion_detection(game, last_position)
+        self.__movement(tick)
+        self.__shoot(1, game.events, tick, game)
+        self.__collide_controller(game, last_position)
