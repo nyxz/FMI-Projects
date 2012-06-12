@@ -11,18 +11,25 @@ class Player(pygame.sprite.Sprite):
         super(Player, self).__init__(*groups)
         self.image = pygame.image.load('images/player.png')
         self.rect = pygame.rect.Rect(location, self.image.get_size())
-        self.radius = 24
+        self.radius = 22
         self.gun_cooldown = 0
-        self.gun_cooldown_delay = 0.4
+        self.gun_cooldown_delay = 0.2
+        self.gun_overflow = 0
+        self.gun_overflow_max = 50
+        self.gun_overflow_step = 4
+        self.gun_overflow_step_back = 10
+        self.can_shoot = True
         self.gun_direction = -1
         self.gun_type_green = 1
         self.gun_level = 1
         self.gun_powers = (25, 50)
-        self.accuracy = 0
+        self.gun_speed = 320
         self.score = 0
-        self.total_score = 0
         self.health = 100
+        self.shield = 50
+        self.shield_step_back = 1
         self.move_speed = 300
+        self.kills = 0
 
 
     def __movement(self, tick):
@@ -70,14 +77,19 @@ class Player(pygame.sprite.Sprite):
         for sprite in game.enemies.sprites():
             if pygame.sprite.collide_circle(self, sprite):
                 sprite.kill()
+                self.__zero_stats()
+                self.kill()
 
 
     def __shoot(self, gun1, events, dt, game):
         key = pygame.key.get_pressed()
-        if key[pygame.K_SPACE] and not self.gun_cooldown:
+        if key[pygame.K_SPACE] and not self.gun_cooldown and self.can_shoot:
             gun_power = self.__get_gun_power()
-            gun.Gun(self.gun_type_green, gun_power, False, self.rect.midtop, self.gun_direction, game.sprites)    
+            gun.Gun(self.gun_type_green, gun_power, self.gun_speed, False, self.rect.midtop, self.gun_direction, game.sprites)    
             self.gun_cooldown = self.gun_cooldown_delay
+            self.gun_overflow += self.gun_overflow_step
+            if self.gun_overflow >= self.gun_overflow_max:
+                self.can_shoot = False
         self.gun_cooldown = max(0, self.gun_cooldown - dt)
         
 
@@ -86,8 +98,29 @@ class Player(pygame.sprite.Sprite):
         return rand
 
 
+    def __zero_stats(self):
+        self.health = 0
+        self.shield = 0
+
+
+    def __gun_overflow_check(self, tick):
+        if self.gun_overflow > 0:
+            self.gun_overflow -= self.gun_overflow_step_back * tick
+            self.gun_overflow = max(0, self.gun_overflow)
+            if self.gun_overflow == 0:
+                self.can_shoot = True
+
+
+    def __shield_check(self, tick):
+        if self.shield > 0:
+            self.shield -= self.shield_step_back * tick
+            self.shield = max(0, self.shield)
+
+
     def update(self, tick, game):
         last_position = self.rect.copy()
         self.__movement(tick)
         self.__shoot(1, game.events, tick, game)
+        self.__gun_overflow_check(tick)
+        self.__shield_check(tick)
         self.__collide_controller(game, last_position)

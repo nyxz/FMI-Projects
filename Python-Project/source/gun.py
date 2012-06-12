@@ -5,19 +5,19 @@ import pygame
 class Gun(pygame.sprite.Sprite):
 
 
-    gun_1 = pygame.image.load('images/lazer_green.png')
-    gun_2 = pygame.image.load('images/lazer_red.png')
-    gun_imgs = {1:gun_1, 2:gun_2}
-    move_speed = 300
+    def __init__(self, gun, power, speed, is_enemy, position, direction, *groups):
 
+        self.gun_1 = pygame.image.load('images/lazer_green.png')
+        self.gun_2 = pygame.image.load('images/lazer_red.png')
+        self.gun_imgs = {1:self.gun_1, 2:self.gun_2}
+        self.move_speed = speed 
 
-    def __init__(self, gun, power, is_enemy, position, direction, *groups):
         super(Gun, self).__init__(*groups)
         self.image = self.__get_image_for_gun(gun)
         self.rect = pygame.rect.Rect(position, self.image.get_size())
         self.direction = direction
         self.power = power
-        self.gun_life = 3
+        self.gun_life = 7
         self.is_enemy_bullet = is_enemy
 
 
@@ -37,17 +37,27 @@ class Gun(pygame.sprite.Sprite):
 
 
     def __collide_controller(self, game):
-        for cell in pygame.sprite.spritecollide(self, game.enemies, False):
-            if not self.is_enemy_bullet and self.direction == -1:
+        for enemy in game.enemies.sprites():
+            #for cell in pygame.sprite.spritecollide(self, game.enemies, False):
+            if pygame.sprite.collide_circle(self, enemy) and not self.is_enemy_bullet and self.direction == -1:
                 self.kill()
-                cell.health -= self.power
-                if cell.health <= 0:
-                    cell.kill()
+                enemy.health -= self.power
+                if enemy.health <= 0:
+                    enemy.kill()
+                    game.gamer.score += game.game_level * 1000
+                    game.gamer.kills += 1
         if pygame.sprite.collide_circle(self, game.gamer) and self.is_enemy_bullet:
             self.kill()
-            game.gamer.health -= self.power
-            if game.gamer.health <= 0:
-                game.gamer.kill()
+            if game.gamer.shield > 0:
+                game.gamer.shield -= self.power
+                if game.gamer.shield < 0:
+                    game.gamer.health += game.gamer.shield
+                game.gamer.shield = max(0, game.gamer.shield)
+            else:
+                game.gamer.health -= self.power
+                game.gamer.health = max(0, game.gamer.health)
+                if game.gamer.health == 0:
+                    game.gamer.kill()
 
 
     def update(self, tick, game):

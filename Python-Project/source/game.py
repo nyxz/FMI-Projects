@@ -7,17 +7,19 @@ import stats
 
 class Game:
 
-    player_pos = (400, 500)
-    bg_img_pos = (0, 0)
-    stat_img_pos = (0, 640)
-    stat_bar_size = 60
-    bound_size = 2
-    border = 1
-    clock_tick = 40
-    enemy_y_range = range(60, 300, 90)
-    enemy_x_range = range(20, 700, 120)
 
     def __init__(self, screen):
+
+        self.player_pos = (400, 500)
+        self.bg_img_pos = (0, 0)
+        self.stat_img_pos = (0, 640)
+        self.stat_bar_size = 60
+        self.bound_size = 2
+        self.border = 1
+        self.clock_tick = 60
+        self.enemy_y_range = range(40, 300, 90)
+        self.enemy_x_range = range(20, 700, 120)
+        
         self.screen_size = screen.get_size()
         self.game_level = 1
 
@@ -37,7 +39,6 @@ class Game:
 
         self.walls = self.__make_bounds()
         self.sprites.add(self.walls)
-       
 
 
     def __make_bounds(self):
@@ -72,14 +73,29 @@ class Game:
                 if event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
                     return
 
-            self.stats = stats.Stats(self).load_player_health()
+            self.stat_class = stats.Stats(self)
+            has_enemies = self.stat_class.game_has_enemies()
+            if not has_enemies:
+                return
+            
+            self.stats = self.stat_class.load_player_health()
             health = self.stats.get('health')
+            shield = self.stats.get('shield')
+            score = self.stats.get('score')
+            overflow = self.stats.get('overflow')
+            kills = self.stats.get('kills')
+            gun_lvl = self.stats.get('gun')
 
             self.sprites.update(tick / 1000., self)
             screen.blit(self.background, self.bg_img_pos)
             self.sprites.draw(screen)
             screen.blit(self.status_img, self.stat_img_pos)
             screen.blit(health[0], health[1])
+            screen.blit(shield[0], shield[1])
+            screen.blit(score[0], score[1])
+            screen.blit(overflow[0], overflow[1])
+            screen.blit(kills[0], kills[1])
+            screen.blit(gun_lvl[0], gun_lvl[1])
             pygame.display.flip()
 
 
