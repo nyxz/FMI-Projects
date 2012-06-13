@@ -1,6 +1,8 @@
 #!/usr/bin/env python 
 
 import pygame
+import bonus
+
 
 class Gun(pygame.sprite.Sprite):
 
@@ -43,6 +45,7 @@ class Gun(pygame.sprite.Sprite):
                 self.kill()
                 enemy.health -= self.power
                 if enemy.health <= 0:
+                    bonus.Bonus(enemy.bonus, enemy.rect.midtop, game.sprites)
                     enemy.kill()
                     game.gamer.score += game.game_level * 1000
                     game.gamer.kills += 1

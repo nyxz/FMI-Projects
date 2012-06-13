@@ -6,6 +6,7 @@ import random
 
 class Enemy(pygame.sprite.Sprite):
 
+    GIFTS = ('p100', 'p200', 'p300', 'gun', 'shield', 'heal')
 
     def __init__(self, location, game_level, *groups):
         
@@ -21,6 +22,7 @@ class Enemy(pygame.sprite.Sprite):
         self.gun_cooldown_range = (1.0, 5.0)
         self.gun_type_red = 2
         self.gun_direction = 1
+        self.bonus = self.__get_rand_bonus__()
 
         super(Enemy, self).__init__(*groups)
         self.level = game_level
@@ -61,6 +63,23 @@ class Enemy(pygame.sprite.Sprite):
        dmg_level = self.dmg_levels[self.level - 1]
        rand = random.randint(dmg_level[0], dmg_level[1])
        return rand
+
+
+    def __get_rand_bonus__(self):
+        num = random.randint(0, 100)
+        if num <= 30:
+            return self.GIFTS[0]
+        if num <= 55:
+            return self.GIFTS[1]
+        if num <= 75:
+            return self.GIFTS[2]
+        if num <= 85:
+            return self.GIFTS[3]
+        if num <= 95:
+            return self.GIFTS[4]
+        if num <= 100:
+            return self.GIFTS[5]
+
 
 
     def update(self, tick, game):
