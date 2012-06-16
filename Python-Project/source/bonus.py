@@ -2,6 +2,7 @@
 
 import pygame
 import random
+import sounds
 
 class Bonus(pygame.sprite.Sprite):
 
@@ -42,27 +43,33 @@ class Bonus(pygame.sprite.Sprite):
     def __reward_player__(self, game):
         if self.type == self.GIFTS[0]:
             game.gamer.score += 100
+            sounds.Sound('points').play()
             return
         if self.type == self.GIFTS[1]:
             game.gamer.score += 200
+            sounds.Sound('points').play()
             return
         if self.type == self.GIFTS[2]:
             game.gamer.score += 300
+            sounds.Sound('points').play()
             return
         if self.type == self.GIFTS[3]:
             if game.gamer.gun_level < 3:
                 game.gamer.gun_level += 1
+            sounds.Sound('weapon').play()
             return
         if self.type == self.GIFTS[4]:
             game.gamer.shield += 50
             if game.gamer.shield > 100:
                 game.gamer.shield = 100
+            sounds.Sound('shield').play()
             return
         if self.type == self.GIFTS[5]:
             health = random.randint(25, 50)
             game.gamer.health += health 
             if game.gamer.health > 100:
                 game.gamer.health = 100
+            sounds.Sound('heal').play()
             return
 
 

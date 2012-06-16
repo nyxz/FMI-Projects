@@ -2,3 +2,4 @@
 *.directory
 *.swo
 *.pyc
+__pycache__

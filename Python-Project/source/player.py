@@ -3,33 +3,37 @@
 import pygame
 import gun
 import random
+import sounds
 
 class Player(pygame.sprite.Sprite):
 
+    gun_cooldown = 0
+    gun_cooldown_delay = 0.4
+    gun_overflow = 0
+    gun_overflow_max = 50
+    gun_overflow_step = 7
+    gun_overflow_step_back = 10
+    gun_direction = -1
+    gun_type = 'green'
+    gun_level = 1
+    gun_powers = (25, 50)
+    gun_speed = 320
+    can_shoot = True
+
+    health = 100
+    shield = 50
+    shield_step_back = 1
+    
+    move_speed = 300
+
+    kills = 0
+    score = 0
 
     def __init__(self, location, *groups):
         super(Player, self).__init__(*groups)
         self.image = pygame.image.load('images/player.png')
         self.rect = pygame.rect.Rect(location, self.image.get_size())
         self.radius = 22
-        self.gun_cooldown = 0
-        self.gun_cooldown_delay = 0.2
-        self.gun_overflow = 0
-        self.gun_overflow_max = 50
-        self.gun_overflow_step = 4
-        self.gun_overflow_step_back = 10
-        self.can_shoot = True
-        self.gun_direction = -1
-        self.gun_type = 'green'
-        self.gun_level = 1
-        self.gun_powers = (25, 50)
-        self.gun_speed = 320
-        self.score = 0
-        self.health = 100
-        self.shield = 50
-        self.shield_step_back = 1
-        self.move_speed = 300
-        self.kills = 0
 
 
     def __movement(self, tick):
@@ -146,6 +150,8 @@ class Player(pygame.sprite.Sprite):
             self.gun_overflow += self.gun_overflow_step
             if self.gun_overflow >= self.gun_overflow_max:
                 self.can_shoot = False
+                sounds.Sound('overflow').play()
+            sounds.Sound('shot').play()
         self.gun_cooldown = max(0, self.gun_cooldown - dt)
         
 

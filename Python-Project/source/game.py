@@ -80,7 +80,7 @@ class Game:
             self.stat_class = stats.Stats(self)
             has_enemies = self.stat_class.game_has_enemies()
             if not has_enemies:
-                return
+                pass
             
             self.stats = self.stat_class.load_player_health()
             health = self.stats.get('health')
