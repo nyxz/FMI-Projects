@@ -23,7 +23,7 @@ class Game:
         self.screen_size = screen.get_size()
         self.game_level = 1
 
-        self.background = pygame.image.load('images/background2.png')
+        self.background = pygame.image.load('images/background.png')
         self.status_img = pygame.image.load('images/stats.png')
 
         stats_img_pos = (0, self.screen_size[1] - self.stat_bar_size)

@@ -14,8 +14,8 @@ class Bonus(pygame.sprite.Sprite):
     p200_img = pygame.image.load('images/gifts/p200.png')
     p300_img = pygame.image.load('images/gifts/p300.png')
     shield_img = pygame.image.load('images/gifts/shield.png')
-    heal_img = pygame.image.load('images/gifts/heal_1.png')
-    gun_img = pygame.image.load('images/gifts/gun_5.png')
+    heal_img = pygame.image.load('images/gifts/heal.png')
+    gun_img = pygame.image.load('images/gifts/gun.png')
 
     images = {'p100':p100_img, 'p200':p200_img, 'p300':p300_img, 
             'shield':shield_img, 'heal':heal_img, 'gun':gun_img}
