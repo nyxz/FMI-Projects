@@ -47,7 +47,10 @@ class Game:
         height = self.screen_size[1] - self.stat_bar_size
         for x in range(self.bound_size, self.screen_size[0], self.border):
             for y in range(self.bound_size, height, self.border):
-                if x in (self.bound_size, self.screen_size[0] - self.bound_size) or y in (self.bound_size, height - self.bound_size):
+                if x in (
+                        self.bound_size, \
+                        self.screen_size[0] - self.bound_size) \
+                or y in (self.bound_size, height - self.bound_size):
                     wall = pygame.sprite.Sprite(walls)
                     wall.image = wall_image 
                     wall.rect = pygame.rect.Rect((x, y), wall_image.get_size())
@@ -70,7 +73,8 @@ class Game:
             for event in self.events:
                 if event.type == pygame.QUIT:
                     return
-                if event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
+                if event.type == pygame.KEYDOWN \
+                and event.key == pygame.K_ESCAPE:
                     return
 
             self.stat_class = stats.Stats(self)
@@ -101,5 +105,8 @@ class Game:
 
 if __name__ == '__main__':
     pygame.init()
-    screen = pygame.display.set_mode((1000,700), pygame.HWSURFACE|pygame.DOUBLEBUF)
+    screen = pygame.display.set_mode(
+            (1000,700), 
+            pygame.HWSURFACE|pygame.DOUBLEBUF
+            )
     Game(screen).main()

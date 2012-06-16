@@ -20,7 +20,7 @@ class Enemy(pygame.sprite.Sprite):
         self.gun_max_speeds = {1:300, 2:350, 3:400}
         self.move_speed = 100
         self.gun_cooldown_range = (1.0, 5.0)
-        self.gun_type_red = 2
+        self.gun_type = 'red'
         self.gun_direction = 1
         self.bonus = self.__get_rand_bonus__()
 
@@ -39,9 +39,13 @@ class Enemy(pygame.sprite.Sprite):
         new = self.rect
         for cell in pygame.sprite.spritecollide(self, game.walls, False):
             cell_rect = cell.rect
-            if last.right <= cell_rect.left and new.right > cell_rect.left and cell_rect.left > 0:
+            if last.right <= cell_rect.left \
+                    and new.right > cell_rect.left \
+                    and cell_rect.left > 0:
                 self.direction = -1
-            if last.left >= cell_rect.right and new.left < cell_rect.right and cell_rect.right < 798:
+            if last.left >= cell_rect.right \
+                    and new.left < cell_rect.right \
+                    and cell_rect.right < 798:
                 self.direction = 1
 
 
@@ -53,9 +57,23 @@ class Enemy(pygame.sprite.Sprite):
         rand = random.randint(1, 1000)
         if rand > self.gun_bullets_rate and not self.gun_cooldown:
             gun_dmg = self.__gun_dmg_by_level() 
-            gun_speed = random.randint(self.gun_min_speed, self.gun_max_speeds.get(self.level))
-            gun.Gun(self.gun_type_red, gun_dmg, gun_speed, True, self.rect.midtop, self.gun_direction, game.sprites)
-            self.gun_cooldown = random.uniform(self.gun_cooldown_range[0], self.gun_cooldown_range[1]) 
+            gun_speed = random.randint(
+                    self.gun_min_speed, 
+                    self.gun_max_speeds.get(self.level)
+                    ) 
+            gun.Gun(
+                    self.gun_type, 
+                    gun_dmg, 
+                    gun_speed, 
+                    True, 
+                    self.rect.midtop, 
+                    self.gun_direction, 
+                    game.sprites
+                    )
+            self.gun_cooldown = random.uniform(
+                    self.gun_cooldown_range[0], 
+                    self.gun_cooldown_range[1]
+                    ) 
         self.gun_cooldown = max(0, self.gun_cooldown - dt)
 
 

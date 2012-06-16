@@ -7,11 +7,12 @@ import bonus
 class Gun(pygame.sprite.Sprite):
 
 
-    def __init__(self, gun, power, speed, is_enemy, position, direction, *groups):
+    def __init__(self, gun, power, speed, 
+            is_enemy, position, direction, *groups):
 
         self.gun_1 = pygame.image.load('images/lazer_green.png')
         self.gun_2 = pygame.image.load('images/lazer_red.png')
-        self.gun_imgs = {1:self.gun_1, 2:self.gun_2}
+        self.gun_imgs = {'green':self.gun_1, 'red':self.gun_2}
         self.move_speed = speed 
 
         super(Gun, self).__init__(*groups)
@@ -40,8 +41,9 @@ class Gun(pygame.sprite.Sprite):
 
     def __collide_controller(self, game):
         for enemy in game.enemies.sprites():
-            #for cell in pygame.sprite.spritecollide(self, game.enemies, False):
-            if pygame.sprite.collide_circle(self, enemy) and not self.is_enemy_bullet and self.direction == -1:
+            if pygame.sprite.collide_circle(self, enemy) \
+                    and not self.is_enemy_bullet \
+                    and self.direction == -1:
                 self.kill()
                 enemy.health -= self.power
                 if enemy.health <= 0:
@@ -49,7 +51,8 @@ class Gun(pygame.sprite.Sprite):
                     enemy.kill()
                     game.gamer.score += game.game_level * 1000
                     game.gamer.kills += 1
-        if pygame.sprite.collide_circle(self, game.gamer) and self.is_enemy_bullet:
+        if pygame.sprite.collide_circle(self, game.gamer) \
+                and self.is_enemy_bullet:
             self.kill()
             if game.gamer.shield > 0:
                 game.gamer.shield -= self.power

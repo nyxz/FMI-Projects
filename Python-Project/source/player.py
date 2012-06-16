@@ -20,7 +20,7 @@ class Player(pygame.sprite.Sprite):
         self.gun_overflow_step_back = 10
         self.can_shoot = True
         self.gun_direction = -1
-        self.gun_type_green = 1
+        self.gun_type = 'green'
         self.gun_level = 1
         self.gun_powers = (25, 50)
         self.gun_speed = 320
@@ -85,7 +85,63 @@ class Player(pygame.sprite.Sprite):
         key = pygame.key.get_pressed()
         if key[pygame.K_SPACE] and not self.gun_cooldown and self.can_shoot:
             gun_power = self.__get_gun_power()
-            gun.Gun(self.gun_type_green, gun_power, self.gun_speed, False, self.rect.midtop, self.gun_direction, game.sprites)    
+            if self.gun_level == 1:
+                gun.Gun(
+                        self.gun_type, 
+                        gun_power, 
+                        self.gun_speed, 
+                        False, 
+                        self.rect.midtop, 
+                        self.gun_direction, 
+                        game.sprites
+                        )    
+                
+            if self.gun_level == 2:
+                gun.Gun(
+                        self.gun_type, 
+                        gun_power, 
+                        self.gun_speed, 
+                        False, 
+                        self.rect.midright, 
+                        self.gun_direction, 
+                        game.sprites
+                        )    
+                gun.Gun(
+                        self.gun_type, 
+                        gun_power, 
+                        self.gun_speed, 
+                        False, 
+                        self.rect.midleft, 
+                        self.gun_direction, 
+                        game.sprites)    
+            if self.gun_level == 3:
+                gun.Gun(
+                        self.gun_type, 
+                        gun_power, 
+                        self.gun_speed, 
+                        False, 
+                        self.rect.midright, 
+                        self.gun_direction, 
+                        game.sprites
+                        )    
+                gun.Gun(
+                        self.gun_type, 
+                        gun_power, 
+                        self.gun_speed, 
+                        False, 
+                        self.rect.midtop, 
+                        self.gun_direction, 
+                        game.sprites
+                        )    
+                gun.Gun(
+                        self.gun_type, 
+                        gun_power, 
+                        self.gun_speed, 
+                        False, 
+                        self.rect.midleft, 
+                        self.gun_direction, 
+                        game.sprites
+                        )    
             self.gun_cooldown = self.gun_cooldown_delay
             self.gun_overflow += self.gun_overflow_step
             if self.gun_overflow >= self.gun_overflow_max:
