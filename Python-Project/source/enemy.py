@@ -7,23 +7,23 @@ import random
 class Enemy(pygame.sprite.Sprite):
 
     GIFTS = ('p100', 'p200', 'p300', 'gun', 'shield', 'heal')
+    image_1 = pygame.image.load('images/enemy_1.png')
+    image_2 = pygame.image.load('images/enemy_2.png')
+    image_3 = pygame.image.load('images/enemy_3.png')
+    images = {1:image_1, 2:image_2, 3:image_3}
+    health_level = {1:200, 2:250, 3:300}
+    dmg_levels = ((25, 30), (30, 45), (45, 65))
+    gun_min_speed = 150 
+    gun_max_speeds = {1:300, 2:350, 3:400}
+    move_speed = 100
+    gun_cooldown_range = (1.0, 5.0)
+    gun_type = 'red'
+    gun_direction = 1
+
 
     def __init__(self, location, game_level, *groups):
         
-        self.image_1 = pygame.image.load('images/enemy_1.png')
-        self.image_2 = pygame.image.load('images/enemy_2.png')
-        self.image_3 = pygame.image.load('images/enemy_3.png')
-        self.images = {1:self.image_1, 2:self.image_2, 3:self.image_3}
-        self.health_level = {1:200, 2:250, 3:300}
-        self.dmg_levels = ((25, 30), (30, 45), (45, 65))
-        self.gun_min_speed = 150 
-        self.gun_max_speeds = {1:300, 2:350, 3:400}
-        self.move_speed = 100
-        self.gun_cooldown_range = (1.0, 5.0)
-        self.gun_type = 'red'
-        self.gun_direction = 1
         self.bonus = self.__get_rand_bonus__()
-
         super(Enemy, self).__init__(*groups)
         self.level = game_level
         self.image = self.images.get(self.level)

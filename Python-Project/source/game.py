@@ -34,8 +34,9 @@ class Game:
         self.enemies = self.__load_enemies()
         self.sprites.add(self.enemies)
 
-        self.gamer = player.Player(self.player_pos, self.sprites)
-        self.sprites.add(self.gamer)
+        self.players = pygame.sprite.Group()
+        self.gamer = player.Player(self.player_pos, self.players)
+        self.sprites.add(self.players)
 
         self.walls = self.__make_bounds()
         self.sprites.add(self.walls)
@@ -77,11 +78,14 @@ class Game:
                 and event.key == pygame.K_ESCAPE:
                     return
 
-            self.stat_class = stats.Stats(self)
-            has_enemies = self.stat_class.game_has_enemies()
-            if not has_enemies:
-                pass
+            enemy_count = self.enemies.sprites().__len__()
+            if enemy_count < 1 and self.game_level < 4:
+                self.game_level += 1
+                self.enemies = self.__load_enemies()
+                self.sprites.add(self.enemies)
+
             
+            self.stat_class = stats.Stats(self)
             self.stats = self.stat_class.load_player_health()
             health = self.stats.get('health')
             shield = self.stats.get('shield')

@@ -7,15 +7,15 @@ import sounds
 
 class Gun(pygame.sprite.Sprite):
 
+    gun_1 = pygame.image.load('images/lazer_green.png')
+    gun_2 = pygame.image.load('images/lazer_red.png')
+    gun_imgs = {'green':gun_1, 'red':gun_2}
+
 
     def __init__(self, gun, power, speed, 
             is_enemy, position, direction, *groups):
 
-        self.gun_1 = pygame.image.load('images/lazer_green.png')
-        self.gun_2 = pygame.image.load('images/lazer_red.png')
-        self.gun_imgs = {'green':self.gun_1, 'red':self.gun_2}
         self.move_speed = speed 
-
         super(Gun, self).__init__(*groups)
         self.image = self.__get_image_for_gun(gun)
         self.rect = pygame.rect.Rect(position, self.image.get_size())
@@ -54,22 +54,25 @@ class Gun(pygame.sprite.Sprite):
                     sounds.Sound('death').play()
                     game.gamer.score += game.game_level * 1000
                     game.gamer.kills += 1
-        if pygame.sprite.collide_circle(self, game.gamer) \
-                and self.is_enemy_bullet:
-            self.kill()
-            if game.gamer.shield > 0:
-                game.gamer.shield -= self.power
-                sounds.Sound('shield_hit').play()
-                if game.gamer.shield < 0:
-                    game.gamer.health += game.gamer.shield
-                game.gamer.shield = max(0, game.gamer.shield)
-            else:
-                game.gamer.health -= self.power
-                game.gamer.health = max(0, game.gamer.health)
-                sounds.Sound('hit').play()
-                if game.gamer.health == 0:
-                    game.gamer.kill()
-                    sounds.Sound('death').play()
+        for gamer in game.players.sprites():
+            if pygame.sprite.collide_circle(self, gamer) \
+                    and self.is_enemy_bullet:
+                self.kill()
+                if gamer.shield > 0:
+                    gamer.shield -= self.power
+                    sounds.Sound('shield_hit').play()
+                    if gamer.shield < 0:
+                        gamer.health += gamer.shield
+                        if gamer.health <= 0:
+                            gamer.kill()
+                    gamer.shield = max(0, gamer.shield)
+                else:
+                    gamer.health -= self.power
+                    gamer.health = max(0, gamer.health)
+                    sounds.Sound('hit').play()
+                    if gamer.health == 0:
+                        gamer.kill()
+                        sounds.Sound('death').play()
 
 
     def update(self, tick, game):
