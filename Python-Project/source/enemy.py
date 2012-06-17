@@ -10,15 +10,19 @@ class Enemy(pygame.sprite.Sprite):
     image_1 = pygame.image.load('images/enemy_1.png')
     image_2 = pygame.image.load('images/enemy_2.png')
     image_3 = pygame.image.load('images/enemy_3.png')
-    images = {1:image_1, 2:image_2, 3:image_3}
-    health_level = {1:200, 2:250, 3:300}
-    dmg_levels = ((25, 30), (30, 45), (45, 65))
+    image_4 = pygame.image.load('images/enemy_4.png')
+    images = {1:image_1, 2:image_2, 3:image_3, 4:image_4}
+    health_level = {1:200, 2:250, 3:300, 4:350}
+    dmg_levels = ((25, 30), (30, 45), (45, 65), (65, 90))
     gun_min_speed = 150 
-    gun_max_speeds = {1:300, 2:350, 3:400}
+    gun_max_speeds = {1:300, 2:350, 3:400, 4:450}
     move_speed = 100
     gun_cooldown_range = (1.0, 5.0)
     gun_type = 'red'
     gun_direction = 1
+    direction = 1
+    gun_cooldown = 4 
+    gun_bullets_rate = 800
 
 
     def __init__(self, location, game_level, *groups):
@@ -28,11 +32,8 @@ class Enemy(pygame.sprite.Sprite):
         self.level = game_level
         self.image = self.images.get(self.level)
         self.rect = pygame.rect.Rect(location, self.image.get_size())
-        self.radius = 22
-        self.direction = 1
-        self.gun_cooldown = 1 
-        self.gun_bullets_rate = 800
         self.health = self.health_level.get(self.level)
+        self.radius = 22
 
 
     def __collide_controller(self, game, last):
@@ -41,11 +42,13 @@ class Enemy(pygame.sprite.Sprite):
             cell_rect = cell.rect
             if last.right <= cell_rect.left \
                     and new.right > cell_rect.left \
-                    and cell_rect.left > 0:
+                    and cell_rect.left > 100 \
+                    and self.direction == 1: 
                 self.direction = -1
             if last.left >= cell_rect.right \
                     and new.left < cell_rect.right \
-                    and cell_rect.right < 798:
+                    and cell_rect.right < 1000 \
+                    and self.direction == -1: 
                 self.direction = 1
 
 

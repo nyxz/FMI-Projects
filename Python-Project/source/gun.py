@@ -3,7 +3,7 @@
 import pygame
 import bonus
 import sounds
-
+import effects
 
 class Gun(pygame.sprite.Sprite):
 
@@ -51,6 +51,7 @@ class Gun(pygame.sprite.Sprite):
                 if enemy.health <= 0:
                     bonus.Bonus(enemy.bonus, enemy.rect.midtop, game.sprites)
                     enemy.kill()
+                    effects.Explosion(enemy.rect.midtop, game, game.sprites)
                     sounds.Sound('death').play()
                     game.gamer.score += game.game_level * 1000
                     game.gamer.kills += 1
@@ -61,18 +62,24 @@ class Gun(pygame.sprite.Sprite):
                 if gamer.shield > 0:
                     gamer.shield -= self.power
                     sounds.Sound('shield_hit').play()
-                    if gamer.shield < 0:
+                    if gamer.shield <= 0:
                         gamer.health += gamer.shield
-                        if gamer.health <= 0:
-                            gamer.kill()
+                        gamer.shield = 0
+                        self.__check_death__(game, gamer)
                     gamer.shield = max(0, gamer.shield)
                 else:
                     gamer.health -= self.power
                     gamer.health = max(0, gamer.health)
                     sounds.Sound('hit').play()
-                    if gamer.health == 0:
-                        gamer.kill()
-                        sounds.Sound('death').play()
+                    self.__check_death__(game, gamer)
+
+
+    def __check_death__(self, game, gamer):
+        if gamer.health <= 0:
+            gamer.health = 0
+            gamer.kill()
+            effects.Explosion(gamer.rect.midtop, game, game.sprites)
+            sounds.Sound('death').play()
 
 
     def update(self, tick, game):

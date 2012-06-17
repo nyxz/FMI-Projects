@@ -7,19 +7,18 @@ import stats
 
 class Game:
 
+    player_pos = (400, 500)
+    bg_img_pos = (0, 0)
+    stat_img_pos = (0, 640)
+    stat_bar_size = 60
+    bound_size = 2
+    border = 1
+    clock_tick = 120
+    enemy_y_range = range(40, 300, 90)
+    enemy_x_range = range(-900, -20, 120)
 
     def __init__(self, screen):
 
-        self.player_pos = (400, 500)
-        self.bg_img_pos = (0, 0)
-        self.stat_img_pos = (0, 640)
-        self.stat_bar_size = 60
-        self.bound_size = 2
-        self.border = 1
-        self.clock_tick = 60
-        self.enemy_y_range = range(40, 300, 90)
-        self.enemy_x_range = range(20, 700, 120)
-        
         self.screen_size = screen.get_size()
         self.game_level = 1
 
@@ -66,16 +65,20 @@ class Game:
         return enemies
 
 
-    def main(self):
+    def main(self, player_name):
+        self.player_name = player_name
         game_running = True
         while game_running:
             tick = self.clock.tick(self.clock_tick)
             self.events = pygame.event.get()
+            self.stat_class = stats.Stats(self)
             for event in self.events:
                 if event.type == pygame.QUIT:
+                    self.stat_class.print_scores()
                     return
                 if event.type == pygame.KEYDOWN \
                 and event.key == pygame.K_ESCAPE:
+                    self.stat_stats.print_scores()
                     return
 
             enemy_count = self.enemies.sprites().__len__()
@@ -85,7 +88,6 @@ class Game:
                 self.sprites.add(self.enemies)
 
             
-            self.stat_class = stats.Stats(self)
             self.stats = self.stat_class.load_player_health()
             health = self.stats.get('health')
             shield = self.stats.get('shield')
@@ -108,9 +110,10 @@ class Game:
 
 
 if __name__ == '__main__':
+    player_name = input("Enter your name: ")
     pygame.init()
     screen = pygame.display.set_mode(
             (1000,700), 
             pygame.HWSURFACE|pygame.DOUBLEBUF
             )
-    Game(screen).main()
+    Game(screen).main(player_name)

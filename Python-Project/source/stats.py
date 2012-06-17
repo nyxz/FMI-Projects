@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import pygame
-
+import shelve
 
 class Stats:
 
@@ -109,3 +109,40 @@ class Stats:
         shield_msg = "Shield: [" + shield_stat \
                 + ']  ( ' + int(shield).__str__() + ' )'
         return shield_msg
+
+
+    def __get_new_gun_power__(self):
+        powers = self.player.gun_powers
+        old_bottom = powers.get(0)
+        old_top = powers.get(1)
+
+        return (old_bottom + 5, old_top + 5)
+
+
+    def __calc_total__(self):
+        name = self.game.player_name
+        p_score = self.player.score
+        db = shelve.open('game.db')
+        if not db.get('scores'):
+            db['scores'] = list()
+        
+        scores = db.get('scores')
+        scores.append((p_score, name))
+        db['scores'] = scores
+        db.close()
+        return scores
+
+
+    def print_scores(self):
+        print("--------- High scores -------")
+        scores = self.__calc_total__()
+        scores.sort()
+        idx = 1
+        for score in scores:
+            msg = "{place}. {name} : {result}"\
+                    .format(\
+                    place = idx,\
+                    name = score[1],\
+                    result = score[0])
+            print(msg)
+            idx += 1

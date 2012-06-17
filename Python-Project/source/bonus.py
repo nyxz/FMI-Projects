@@ -54,21 +54,20 @@ class Bonus(pygame.sprite.Sprite):
             sounds.Sound('points').play()
             return
         if self.type == self.GIFTS[3]:
+            game.gamer.score += 400
             if game.gamer.gun_level < 3:
                 game.gamer.gun_level += 1
             sounds.Sound('weapon').play()
             return
         if self.type == self.GIFTS[4]:
-            game.gamer.shield += 50
-            if game.gamer.shield > 100:
-                game.gamer.shield = 100
+            game.gamer.score += 450
+            game.gamer.shield = min(100, game.gamer.shield + 50)
             sounds.Sound('shield').play()
             return
         if self.type == self.GIFTS[5]:
+            game.gamer.score += 500
             health = random.randint(25, 50)
-            game.gamer.health += health 
-            if game.gamer.health > 100:
-                game.gamer.health = 100
+            game.gamer.health = min(100, game.gamer.health + health)
             sounds.Sound('heal').play()
             return
 

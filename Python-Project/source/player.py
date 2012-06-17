@@ -4,14 +4,15 @@ import pygame
 import gun
 import random
 import sounds
+import effects
 
 class Player(pygame.sprite.Sprite):
 
     gun_cooldown = 0
-    gun_cooldown_delay = 0.4
+    gun_cooldown_delay = 0.2
     gun_overflow = 0
     gun_overflow_max = 50
-    gun_overflow_step = 7
+    gun_overflow_step = 1 
     gun_overflow_step_back = 10
     gun_direction = -1
     gun_type = 'green'
@@ -78,16 +79,21 @@ class Player(pygame.sprite.Sprite):
             if last.top >= cell_rect.bottom and new.top < cell_rect.bottom:
                 new.top = cell_rect.bottom
 
-        for sprite in game.enemies.sprites():
-            if pygame.sprite.collide_circle(self, sprite):
-                sprite.kill()
+        for enemy in game.enemies.sprites():
+            if pygame.sprite.collide_circle(self, enemy):
+                enemy.kill()
+                effects.Explosion(enemy.rect.midtop, game, game.sprites)
+                sounds.Sound('death')
+
                 self.__zero_stats()
                 self.kill()
+                effects.Explosion(self.rect.midtop, game, game.sprites)
+                sounds.Sound('death')
 
 
     def __shoot(self, gun1, events, dt, game):
         key = pygame.key.get_pressed()
-        if key[pygame.K_SPACE] and not self.gun_cooldown and self.can_shoot:
+        if key[pygame.K_LSHIFT] and not self.gun_cooldown and self.can_shoot:
             gun_power = self.__get_gun_power()
             if self.gun_level == 1:
                 gun.Gun(
