@@ -9,10 +9,10 @@ import effects
 class Player(pygame.sprite.Sprite):
 
     gun_cooldown = 0
-    gun_cooldown_delay = 0.2
+    gun_cooldown_delay = 0.3
     gun_overflow = 0
     gun_overflow_max = 50
-    gun_overflow_step = 1 
+    gun_overflow_step = 6 
     gun_overflow_step_back = 10
     gun_direction = -1
     gun_type = 'green'

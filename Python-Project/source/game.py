@@ -78,7 +78,7 @@ class Game:
                     return
                 if event.type == pygame.KEYDOWN \
                 and event.key == pygame.K_ESCAPE:
-                    self.stat_stats.print_scores()
+                    self.stat_class.print_scores()
                     return
 
             enemy_count = self.enemies.sprites().__len__()

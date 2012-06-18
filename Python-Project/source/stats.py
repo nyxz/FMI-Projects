@@ -2,8 +2,13 @@
 
 import pygame
 import shelve
+import datetime
 
 class Stats:
+
+    db_file = 'game.db'
+    db_rec = 'scores'
+
 
     def __init__(self, game):
         self.game = game
@@ -120,29 +125,40 @@ class Stats:
 
 
     def __calc_total__(self):
-        name = self.game.player_name
+        date = datetime.datetime.now()
+        name = str(date) + '@' + self.game.player_name
         p_score = self.player.score
-        db = shelve.open('game.db')
-        if not db.get('scores'):
-            db['scores'] = list()
-        
-        scores = db.get('scores')
-        scores.append((p_score, name))
-        db['scores'] = scores
-        db.close()
-        return scores
 
+        db = shelve.open(self.db_file)
+        if not db.get(self.db_rec):
+            db[self.db_rec] = dict()
+        
+        scores = db.get(self.db_rec)
+        scores.__setitem__(name, p_score)
+        items = [(v, k) for k, v in scores.items()]
+        items.sort()
+        items.reverse()
+        items = [(k, v) for v, k in items]
+        if items.__len__() > 10:
+            items.pop(10)
+
+        new = dict()
+        new.update(items)
+        db.pop(self.db_rec)
+        db[self.db_rec] = new
+        db.close()
+        return items
+    
 
     def print_scores(self):
         print("--------- High scores -------")
         scores = self.__calc_total__()
-        scores.sort()
         idx = 1
         for score in scores:
-            msg = "{place}. {name} : {result}"\
+            msg = "{place}. {name} \t:\t {result}"\
                     .format(\
                     place = idx,\
-                    name = score[1],\
-                    result = score[0])
+                    name = score[0][27:],\
+                    result = score[1])
             print(msg)
             idx += 1
