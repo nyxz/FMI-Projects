@@ -57,6 +57,10 @@ class Bonus(pygame.sprite.Sprite):
             game.gamer.score += 400
             if game.gamer.gun_level < 3:
                 game.gamer.gun_level += 1
+            else:
+                dmg_min = game.gamer.gun_powers[0] + 5
+                dmg_max = game.gamer.gun_powers[1] + 5
+                game.gamer.gun_powers = (dmg_min, dmg_max)
             sounds.Sound('weapon').play()
             return
         if self.type == self.GIFTS[4]:

@@ -33,6 +33,7 @@ class Enemy(pygame.sprite.Sprite):
         self.image = self.images.get(self.level)
         self.rect = pygame.rect.Rect(location, self.image.get_size())
         self.health = self.health_level.get(self.level)
+        self.dmg_level = self.dmg_levels[0]
         self.radius = 22
 
 
@@ -59,7 +60,7 @@ class Enemy(pygame.sprite.Sprite):
     def __shoot(self, game, dt):
         rand = random.randint(1, 1000)
         if rand > self.gun_bullets_rate and not self.gun_cooldown:
-            gun_dmg = self.__gun_dmg_by_level() 
+            gun_dmg = self.gun_dmg_by_level() 
             gun_speed = random.randint(
                     self.gun_min_speed, 
                     self.gun_max_speeds.get(self.level)
@@ -80,9 +81,9 @@ class Enemy(pygame.sprite.Sprite):
         self.gun_cooldown = max(0, self.gun_cooldown - dt)
 
 
-    def __gun_dmg_by_level(self):
-       dmg_level = self.dmg_levels[self.level - 1]
-       rand = random.randint(dmg_level[0], dmg_level[1])
+    def gun_dmg_by_level(self):
+       self.dmg_level = self.dmg_levels[self.level - 1]
+       rand = random.randint(self.dmg_level[0], self.dmg_level[1])
        return rand
 
 

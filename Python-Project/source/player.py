@@ -93,7 +93,7 @@ class Player(pygame.sprite.Sprite):
 
     def __shoot(self, gun1, events, dt, game):
         key = pygame.key.get_pressed()
-        if key[pygame.K_LSHIFT] and not self.gun_cooldown and self.can_shoot:
+        if key[pygame.K_SPACE] and not self.gun_cooldown and self.can_shoot:
             gun_power = self.__get_gun_power()
             if self.gun_level == 1:
                 gun.Gun(

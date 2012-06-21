@@ -3,6 +3,7 @@
 import pygame
 import shelve
 import datetime
+import enemy
 
 class Stats:
 
@@ -16,9 +17,13 @@ class Stats:
         self.p_health_pos = (760, 650)
         self.p_shield_pos = (760, 670)
         self.p_score_pos = (50, 650)
+        self.level_pos = (15, 650)
         self.gun_over_pos = (50, 670)
         self.enemy_down_pos = (500, 650)
         self.gun_lvl_pos = (500, 670)
+        self.dmg_lvl_pos = (580, 650)
+        self.e_dmg_lvl_pos = (580, 670)
+
         self.color = (200, 200, 200)
         self.color_red = (200, 10, 10)
         self.color_green = (10, 200, 10)
@@ -27,6 +32,7 @@ class Stats:
         self.overflow_color = self.color_green
         self.health_color = self.color_green
         self.shield_color = self.color_green
+
         self.stats = dict() 
 
 
@@ -58,6 +64,18 @@ class Stats:
         gun_lvl_txt = font.render(gun_lvl_msg, 1, self.color)
         self.stats.__setitem__('gun', (gun_lvl_txt, self.gun_lvl_pos))
 
+        dmg_lvl_msg = "Your dmg: {dmg}".format(dmg = self.game.gamer.gun_powers)
+        dmg_lvl_txt = font.render(dmg_lvl_msg, 1, self.color)
+        self.stats.__setitem__('dmg', (dmg_lvl_txt, self.dmg_lvl_pos))
+
+        e_dmg_lvl_msg = "Enemy dmg: {dmg}".format(dmg = self.game.e_dmg_level) 
+        e_dmg_lvl_txt = font.render(e_dmg_lvl_msg, 1, self.color)
+        self.stats.__setitem__('e_dmg', (e_dmg_lvl_txt, self.e_dmg_lvl_pos))
+
+        game_level = "Level {level}".format(level = self.game.game_level) 
+        game_lvl_txt = font.render(game_level, 1, self.color)
+        self.stats.__setitem__('level', (game_lvl_txt, self.level_pos))
+        
         return self.stats
 
 
