@@ -17,7 +17,7 @@ class Player(pygame.sprite.Sprite):
     gun_direction = -1
     gun_type = 'green'
     gun_level = 1
-    gun_powers = (25, 50)
+    gun_powers = (30, 45)
     gun_speed = 320
     can_shoot = True
 
@@ -53,11 +53,11 @@ class Player(pygame.sprite.Sprite):
             self.rect.x += step
         if key[pygame.K_UP]:
             self.rect.y -= step
-            if not (key[pygame.K_LEFT] or key[pygame.K_RIGHT]):
+            if not (key[pygame.K_LEFT] or not key[pygame.K_RIGHT]):
                 self.image = img_original
         if key[pygame.K_DOWN]:
             self.rect.y += step
-            if not (key[pygame.K_LEFT] or key[pygame.K_RIGHT]):
+            if not (key[pygame.K_LEFT] or not key[pygame.K_RIGHT]):
                 self.image = img_original
 
         for event in pygame.event.get():
@@ -95,63 +95,19 @@ class Player(pygame.sprite.Sprite):
         key = pygame.key.get_pressed()
         if key[pygame.K_SPACE] and not self.gun_cooldown and self.can_shoot:
             gun_power = self.__get_gun_power()
-            if self.gun_level == 1:
+            idx = self.gun_level
+            while idx > 0:
                 gun.Gun(
                         self.gun_type, 
                         gun_power, 
                         self.gun_speed, 
                         False, 
-                        self.rect.midtop, 
+                        self.__get_gun_position__(idx), 
                         self.gun_direction, 
                         game.sprites
                         )    
+                idx -= 1
                 
-            if self.gun_level == 2:
-                gun.Gun(
-                        self.gun_type, 
-                        gun_power, 
-                        self.gun_speed, 
-                        False, 
-                        self.rect.midright, 
-                        self.gun_direction, 
-                        game.sprites
-                        )    
-                gun.Gun(
-                        self.gun_type, 
-                        gun_power, 
-                        self.gun_speed, 
-                        False, 
-                        self.rect.midleft, 
-                        self.gun_direction, 
-                        game.sprites)    
-            if self.gun_level == 3:
-                gun.Gun(
-                        self.gun_type, 
-                        gun_power, 
-                        self.gun_speed, 
-                        False, 
-                        self.rect.midright, 
-                        self.gun_direction, 
-                        game.sprites
-                        )    
-                gun.Gun(
-                        self.gun_type, 
-                        gun_power, 
-                        self.gun_speed, 
-                        False, 
-                        self.rect.midtop, 
-                        self.gun_direction, 
-                        game.sprites
-                        )    
-                gun.Gun(
-                        self.gun_type, 
-                        gun_power, 
-                        self.gun_speed, 
-                        False, 
-                        self.rect.midleft, 
-                        self.gun_direction, 
-                        game.sprites
-                        )    
             self.gun_cooldown = self.gun_cooldown_delay
             self.gun_overflow += self.gun_overflow_step
             if self.gun_overflow >= self.gun_overflow_max:
@@ -159,7 +115,22 @@ class Player(pygame.sprite.Sprite):
                 sounds.Sound('overflow').play()
             sounds.Sound('shot').play()
         self.gun_cooldown = max(0, self.gun_cooldown - dt)
-        
+
+
+    def __get_gun_position__(self, idx):
+        if self.gun_level == 1 and idx == 1:
+            return self.rect.midtop
+        if self.gun_level == 2 and idx == 1:
+            return self.rect.midleft
+        if self.gun_level == 2 and idx == 2:
+            return self.rect.midright
+        if self.gun_level == 3 and idx == 1:
+            return self.rect.midtop
+        if self.gun_level == 3 and idx == 2:
+            return self.rect.midleft
+        if self.gun_level == 3 and idx == 3:
+            return self.rect.midright
+
 
     def __get_gun_power(self):
         rand = random.randint(self.gun_powers[0], self.gun_powers[1])
@@ -187,8 +158,8 @@ class Player(pygame.sprite.Sprite):
 
     def update(self, tick, game):
         last_position = self.rect.copy()
-        self.__movement(tick)
         self.__shoot(1, game.events, tick, game)
+        self.__movement(tick)
         self.__gun_overflow_check(tick)
         self.__shield_check(tick)
         self.__collide_controller(game, last_position)

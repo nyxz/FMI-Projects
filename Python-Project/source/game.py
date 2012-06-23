@@ -13,7 +13,7 @@ class Game:
     stat_bar_size = 60
     bound_size = 2
     border = 1
-    clock_tick = 120
+    clock_tick = 300
     enemy_y_range = range(40, 300, 90)
     enemy_x_range = range(-900, -20, 120)
     e_dmg_level = tuple()
@@ -22,6 +22,8 @@ class Game:
 
         self.screen_size = screen.get_size()
         self.game_level = 1
+        self.e_dmg_level = 0
+        self.e_health = 0
 
         self.background = pygame.image.load('images/background.png')
         self.status_img = pygame.image.load('images/stats.png')
@@ -40,8 +42,6 @@ class Game:
 
         self.walls = self.__make_bounds()
         self.sprites.add(self.walls)
-
-        self.e_dmg_level = self.__get_enemy_dmg_levels__()
 
 
     def __make_bounds(self):
@@ -65,12 +65,47 @@ class Game:
         for y in self.enemy_y_range:
             for x in self.enemy_x_range:
                 enemy_bot = enemy.Enemy((x, y), self.game_level, enemies)
+        self.__set_enemy_stats__(enemies)
         return enemies
 
     
-    def __get_enemy_dmg_levels__(self):
-        for enemy in self.enemies:
-            return enemy.dmg_level
+    def __set_enemy_stats__(self, enemies):
+        for enemy in enemies:
+            self.e_dmg_level = enemy.dmg_level
+            self.e_health = enemy.health_level.get(enemy.level)
+            break
+
+
+    def __load_game_stats__(self):
+        self.stats = self.stat_class.load_stats()
+        health = self.stats.get('health')
+        shield = self.stats.get('shield')
+        score = self.stats.get('score')
+        level = self.stats.get('level')
+        overflow = self.stats.get('overflow')
+        kills = self.stats.get('kills')
+        gun_lvl = self.stats.get('gun')
+        dmg_lvl = self.stats.get('dmg')
+        e_dmg_lvl = self.stats.get('e_dmg')
+        e_health = self.stats.get('e_health')
+
+        screen.blit(self.status_img, self.stat_img_pos)
+        screen.blit(health[0], health[1])
+        screen.blit(shield[0], shield[1])
+        screen.blit(score[0], score[1])
+        screen.blit(level[0], level[1])
+        screen.blit(overflow[0], overflow[1])
+        screen.blit(kills[0], kills[1])
+        screen.blit(gun_lvl[0], gun_lvl[1])
+        screen.blit(dmg_lvl[0], dmg_lvl[1])
+        screen.blit(e_dmg_lvl[0], e_dmg_lvl[1])
+        screen.blit(e_health[0], e_health[1])
+
+
+    def __load_boss__(self):
+        self.boss = enemy.Enemy((-400, 60), self.game_level, self.enemies)
+        self.sprites.add(self.boss)
+        self.__set_enemy_stats__(self.enemies)
 
 
     def main(self, player_name):
@@ -90,37 +125,20 @@ class Game:
                     return
 
             enemy_count = self.enemies.sprites().__len__()
-            if enemy_count < 1 and self.game_level < 4:
-                self.game_level += 1
+
+            if enemy_count < 1 and self.game_level <= 5:
+                self.game_level += 1 
+
+            if enemy_count < 1 and self.game_level <= 4:
                 self.enemies = self.__load_enemies()
                 self.sprites.add(self.enemies)
-                self.e_dmg_level = self.__get_enemy_dmg_levels__()
-
-            
-            self.stats = self.stat_class.load_player_health()
-            health = self.stats.get('health')
-            shield = self.stats.get('shield')
-            score = self.stats.get('score')
-            level = self.stats.get('level')
-            overflow = self.stats.get('overflow')
-            kills = self.stats.get('kills')
-            gun_lvl = self.stats.get('gun')
-            dmg_lvl = self.stats.get('dmg')
-            e_dmg_lvl = self.stats.get('e_dmg')
+            if enemy_count < 1 and self.game_level == 5:
+                self.__load_boss__()
 
             self.sprites.update(tick / 1000., self)
             screen.blit(self.background, self.bg_img_pos)
             self.sprites.draw(screen)
-            screen.blit(self.status_img, self.stat_img_pos)
-            screen.blit(health[0], health[1])
-            screen.blit(shield[0], shield[1])
-            screen.blit(score[0], score[1])
-            screen.blit(level[0], level[1])
-            screen.blit(overflow[0], overflow[1])
-            screen.blit(kills[0], kills[1])
-            screen.blit(gun_lvl[0], gun_lvl[1])
-            screen.blit(dmg_lvl[0], dmg_lvl[1])
-            screen.blit(e_dmg_lvl[0], e_dmg_lvl[1])
+            self.__load_game_stats__()
             pygame.display.flip()
 
 

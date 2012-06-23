@@ -11,18 +11,21 @@ class Enemy(pygame.sprite.Sprite):
     image_2 = pygame.image.load('images/enemy_2.png')
     image_3 = pygame.image.load('images/enemy_3.png')
     image_4 = pygame.image.load('images/enemy_4.png')
-    images = {1:image_1, 2:image_2, 3:image_3, 4:image_4}
-    health_level = {1:200, 2:250, 3:300, 4:350}
-    dmg_levels = ((25, 30), (30, 45), (45, 65), (65, 90))
+    image_5 = pygame.image.load('images/boss.png')
+    images = {1:image_1, 2:image_2, 3:image_3, 4:image_4, 5:image_5}
+    health_level = {1:200, 2:250, 3:300, 4:350, 5:2000}
+    dmg_levels = ((25, 30), (30, 45), (45, 65), (65, 90), (20, 200))
     gun_min_speed = 150 
-    gun_max_speeds = {1:300, 2:350, 3:400, 4:450}
-    move_speed = 100
+    gun_max_speeds = {1:300, 2:350, 3:400, 4:450, 5:480}
     gun_cooldown_range = (1.0, 5.0)
+    boss_gun_cooldown_range = (0.1, 1.0)
     gun_type = 'red'
     gun_direction = 1
     direction = 1
     gun_cooldown = 4 
     gun_bullets_rate = 800
+    BOSS_SPEED = 170
+    REGULAR_SPEED = 100
 
 
     def __init__(self, location, game_level, *groups):
@@ -33,11 +36,13 @@ class Enemy(pygame.sprite.Sprite):
         self.image = self.images.get(self.level)
         self.rect = pygame.rect.Rect(location, self.image.get_size())
         self.health = self.health_level.get(self.level)
-        self.dmg_level = self.dmg_levels[0]
+        self.dmg_level = self.dmg_levels[self.level - 1]
         self.radius = 22
+        self.is_boss = self.__get_role__()
+        self.move_speed = self.__get_move_speed__()
 
 
-    def __collide_controller(self, game, last):
+    def __collide_controller__(self, game, last):
         new = self.rect
         for cell in pygame.sprite.spritecollide(self, game.walls, False):
             cell_rect = cell.rect
@@ -53,11 +58,19 @@ class Enemy(pygame.sprite.Sprite):
                 self.direction = 1
 
 
-    def __movement(self, tick):
+    def __movement__(self, tick):
         self.rect.x += self.direction * self.move_speed * tick
 
 
-    def __shoot(self, game, dt):
+    def __shoot__(self, game, dt):
+        if self.is_boss:
+            self.__boss_shoot__(game, dt)
+        else:
+            self.__regular_shoot__(game, dt)
+
+
+            
+    def __regular_shoot__(self, game, dt):
         rand = random.randint(1, 1000)
         if rand > self.gun_bullets_rate and not self.gun_cooldown:
             gun_dmg = self.gun_dmg_by_level() 
@@ -79,6 +92,61 @@ class Enemy(pygame.sprite.Sprite):
                     self.gun_cooldown_range[1]
                     ) 
         self.gun_cooldown = max(0, self.gun_cooldown - dt)
+
+
+    def __boss_shoot__(self, game, dt):
+        rand = random.randint(1, 1000)
+        if rand > self.gun_bullets_rate and not self.gun_cooldown:
+            gun_dmg = self.gun_dmg_by_level()
+            gun_speed = random.randint(
+                    self.gun_min_speed,
+                    self.gun_max_speeds.get(self.level)
+                    )
+            count = 4
+            while count > 0:
+                gun.Gun(
+                        self.gun_type, 
+                        gun_dmg, 
+                        gun_speed, 
+                        True, 
+                        self.__get_bullet_pos__(count), 
+                        self.gun_direction, 
+                        game.sprites
+                        )
+                count -= 1
+            self.gun_cooldown = random.uniform(
+                    self.boss_gun_cooldown_range[0],
+                    self.boss_gun_cooldown_range[1]
+                    ) 
+        self.gun_cooldown = max(0, self.gun_cooldown - dt)
+
+    def __get_move_speed__(self):
+        if self.is_boss:
+            return self.BOSS_SPEED
+        return self.REGULAR_SPEED
+
+
+    def __get_bullet_pos__(self, count):
+        if count == 4:
+            return self.rect.midleft
+        elif count == 3:
+            return ( 
+                    self.rect.midleft[0] + 10,\
+                    self.rect.midleft[1]\
+                    )
+        elif count == 2:
+            return self.rect.midright
+        elif count == 1:
+            return (
+                    self.rect.midright[0] - 10,\
+                    self.rect.midright[1]\
+                    )
+
+
+    def __get_role__(self):
+        if self.level == 5:
+            return True
+        return False
 
 
     def gun_dmg_by_level(self):
@@ -106,6 +174,6 @@ class Enemy(pygame.sprite.Sprite):
 
     def update(self, tick, game):
         last_position = self.rect.copy()
-        self.__movement(tick)
-        self.__shoot(game, tick)
-        self.__collide_controller(game, last_position)
+        self.__movement__(tick)
+        self.__shoot__(game, tick)
+        self.__collide_controller__(game, last_position)

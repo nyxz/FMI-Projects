@@ -10,33 +10,34 @@ class Stats:
     db_file = 'game.db'
     db_rec = 'scores'
 
+    p_health_pos = (760, 650)
+    p_shield_pos = (760, 670)
+    p_score_pos = (50, 650)
+    level_pos = (170, 650)
+    gun_over_pos = (50, 670)
+    enemy_down_pos = (290, 650)
+    gun_lvl_pos = (230, 650)
+    dmg_lvl_pos = (580, 650)
+    e_dmg_lvl_pos = (420, 650)
+    e_health_pos = (420, 670)
+
+    color = (200, 200, 200)
+    color_red = (200, 10, 10)
+    color_green = (10, 200, 10)
+    color_orange = (250, 145, 0)
+    color_yellow = (255, 245, 0)
+
 
     def __init__(self, game):
         self.game = game
         self.player = game.gamer
-        self.p_health_pos = (760, 650)
-        self.p_shield_pos = (760, 670)
-        self.p_score_pos = (50, 650)
-        self.level_pos = (15, 650)
-        self.gun_over_pos = (50, 670)
-        self.enemy_down_pos = (500, 650)
-        self.gun_lvl_pos = (500, 670)
-        self.dmg_lvl_pos = (580, 650)
-        self.e_dmg_lvl_pos = (580, 670)
-
-        self.color = (200, 200, 200)
-        self.color_red = (200, 10, 10)
-        self.color_green = (10, 200, 10)
-        self.color_orange = (250, 145, 0)
-        self.color_yellow = (255, 245, 0)
         self.overflow_color = self.color_green
         self.health_color = self.color_green
         self.shield_color = self.color_green
-
         self.stats = dict() 
 
 
-    def load_player_health(self):
+    def load_stats(self):
         pygame.font.init()
         font = pygame.font.Font(None, 20)
 
@@ -71,6 +72,12 @@ class Stats:
         e_dmg_lvl_msg = "Enemy dmg: {dmg}".format(dmg = self.game.e_dmg_level) 
         e_dmg_lvl_txt = font.render(e_dmg_lvl_msg, 1, self.color)
         self.stats.__setitem__('e_dmg', (e_dmg_lvl_txt, self.e_dmg_lvl_pos))
+
+        e_health_lvl_msg = "Enemy health: {health}".\
+                format(health = self.game.e_health) 
+        e_health_lvl_txt = font.render(e_health_lvl_msg, 1, self.color)
+        self.stats.__setitem__('e_health',\
+                (e_health_lvl_txt, self.e_health_pos))
 
         game_level = "Level {level}".format(level = self.game.game_level) 
         game_lvl_txt = font.render(game_level, 1, self.color)
