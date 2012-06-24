@@ -116,6 +116,7 @@ class Game:
             self.events = pygame.event.get()
             self.stat_class = stats.Stats(self)
             for event in self.events:
+                print(event)
                 if event.type == pygame.QUIT:
                     self.stat_class.print_scores()
                     return

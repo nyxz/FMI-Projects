@@ -51,18 +51,22 @@ class Player(pygame.sprite.Sprite):
         if key[pygame.K_RIGHT]:
             self.image = img_right
             self.rect.x += step
-        if key[pygame.K_UP]:
-            self.rect.y -= step
-            if not (key[pygame.K_LEFT] or not key[pygame.K_RIGHT]):
-                self.image = img_original
         if key[pygame.K_DOWN]:
             self.rect.y += step
-            if not (key[pygame.K_LEFT] or not key[pygame.K_RIGHT]):
+            if not (key[pygame.K_LEFT] and not key[pygame.K_RIGHT]):
+                self.image = img_original
+        if key[pygame.K_UP]:
+            self.rect.y -= step
+            if not (key[pygame.K_LEFT] and not key[pygame.K_RIGHT]):
                 self.image = img_original
 
         for event in pygame.event.get():
-            if event.type == pygame.KEYUP:
-                self.image = img_original
+            if event.type == pygame.KEYUP \
+                    and event.key == pygame.K_LEFT:
+               self.image = img_original
+            if event.type == pygame.KEYUP \
+                    and event.key == pygame.K_RIGHT:
+               self.image == img_original
 
 
     def __collide_controller(self, game, last):
