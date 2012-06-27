@@ -98,12 +98,12 @@ class Player(pygame.sprite.Sprite):
             if pygame.sprite.collide_circle(self, enemy):
                 enemy.kill()
                 effects.Explosion(enemy.rect.midtop, game, game.sprites)
-                sounds.Sound('death')
+                sounds.Sound('death').play()
 
                 self._zero_stats()
                 self.kill()
                 effects.Explosion(self.rect.midtop, game, game.sprites)
-                sounds.Sound('death')
+                sounds.Sound('death').play()
 
     def __shoot(self, gun1, events, dt, game):
         """Manages the shooting of the player
@@ -116,7 +116,7 @@ class Player(pygame.sprite.Sprite):
         """
         key = pygame.key.get_pressed()
         if key[pygame.K_SPACE] and not self.gun_cooldown and self.can_shoot:
-            gun_power = self.__get_gun_power()
+            gun_power = self._get_gun_power()
             idx = self.gun_level
             while idx > 0:
                 gun.Gun(
@@ -124,7 +124,7 @@ class Player(pygame.sprite.Sprite):
                         gun_power,
                         self.gun_speed,
                         False,
-                        self.__get_gun_position(idx),
+                        self._get_gun_position(idx),
                         self.gun_direction,
                         game.sprites
                         )
@@ -138,7 +138,7 @@ class Player(pygame.sprite.Sprite):
             sounds.Sound('shot').play()
         self.gun_cooldown = max(0, self.gun_cooldown - dt)
 
-    def __get_gun_position(self, idx):
+    def _get_gun_position(self, idx):
         """Get the position of the weapon bullets"""
 
         if self.gun_level == 1 and idx == 1:
@@ -154,7 +154,7 @@ class Player(pygame.sprite.Sprite):
         if self.gun_level == 3 and idx == 3:
             return self.rect.midright
 
-    def __get_gun_power(self):
+    def _get_gun_power(self):
         """Get weapon power
 
         Gets random weapon power in the range

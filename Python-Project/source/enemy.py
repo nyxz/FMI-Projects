@@ -46,7 +46,7 @@ class Enemy(pygame.sprite.Sprite):
         self.dmg_level = self.dmg_levels[self.level - 1]
         self.radius = 22
         self.is_boss = self.__get_role()
-        self.move_speed = self.__get_move_speed()
+        self.move_speed = self._get_move_speed()
 
     def __collide_controller(self, game, last):
         """Check for collusions
@@ -70,7 +70,7 @@ class Enemy(pygame.sprite.Sprite):
                     and self.direction == -1:
                 self.direction = 1
 
-    def __movement(self, tick):
+    def _movement(self, tick):
         """Movement depends on speed and direction - left/right."""
         self.rect.x += self.direction * self.move_speed * tick
 
@@ -137,7 +137,7 @@ class Enemy(pygame.sprite.Sprite):
                     )
         self.gun_cooldown = max(0, self.gun_cooldown - dt)
 
-    def __get_move_speed(self):
+    def _get_move_speed(self):
         """Get regular or boss move speed."""
         if self.is_boss:
             return self.BOSS_SPEED
@@ -190,6 +190,6 @@ class Enemy(pygame.sprite.Sprite):
 
     def update(self, tick, game):
         last_position = self.rect.copy()
-        self.__movement(tick)
+        self._movement(tick)
         self.__shoot(game, tick)
         self.__collide_controller(game, last_position)

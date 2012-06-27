@@ -92,11 +92,6 @@ class Stats:
 
         return self.stats
 
-    def game_has_enemies(self):
-        if self.game.enemies.sprites().__len__() < 1:
-            return False
-        return True
-
     def __get_health_status(self):
         """Manage health stats
 

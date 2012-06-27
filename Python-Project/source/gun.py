@@ -30,7 +30,7 @@ class Gun(pygame.sprite.Sprite):
         self.gun_life = 7
         self.is_enemy_bullet = is_enemy
 
-    def __movement(self, dt):
+    def _movement(self, dt):
         """Move the bullet up or down, depending on who is shooting."""
         self.rect.y += self.move_speed * dt * self.direction
 
@@ -92,6 +92,6 @@ class Gun(pygame.sprite.Sprite):
             sounds.Sound('death').play()
 
     def update(self, tick, game):
-        self.__movement(tick)
+        self._movement(tick)
         self.__gun_life_controller(tick)
         self.__collide_controller(game)
