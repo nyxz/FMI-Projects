@@ -4,6 +4,7 @@ import pygame
 import random
 import sounds
 
+
 class Bonus(pygame.sprite.Sprite):
 
     DOWN = 1
@@ -18,10 +19,16 @@ class Bonus(pygame.sprite.Sprite):
     heal_img = pygame.image.load('images/gifts/heal.png')
     gun_img = pygame.image.load('images/gifts/gun.png')
 
-    images = {'p100':p100_img, 'p200':p200_img, 'p300':p300_img, 
-            'shield':shield_img, 'heal':heal_img, 'gun':gun_img}
+    images = {'p100': p100_img, 'p200': p200_img, 'p300': p300_img,
+            'shield': shield_img, 'heal': heal_img, 'gun': gun_img}
 
     def __init__(self, type, position, *groups):
+        """Initialize bonus
+
+        The player's bonus could be additional points,
+        +50 shield, +health and weapon damage bonus.
+
+        """
         super(Bonus, self).__init__(*groups)
         self.type = type
         self.image = self.images.get(self.type)
@@ -30,17 +37,23 @@ class Bonus(pygame.sprite.Sprite):
         self.speed = self.SPEED
         self.radius = self.RADIUS
 
-    def __movement__(self, tick):
+    def __movement(self, tick):
         self.rect.y += tick * self.speed * self.direction
 
-
-    def __collide_controller__(self, game):
+    def __collide_controller(self, game):
+        """If bonus collide with player reward the player."""
         if pygame.sprite.collide_circle(self, game.gamer):
-            self.__reward_player__(game)
+            self.__reward_player(game)
             self.kill()
 
+    def __reward_player(self, game):
+        """Rewar the player with the bonus taken.
 
-    def __reward_player__(self, game):
+        If bonus is points (100/200/300) add them to the score.
+        If bonus is weapon then add 400 point to score and add DPS.
+        If health or shield add points and raise the health/shield.
+
+        """
         if self.type == self.GIFTS[0]:
             game.gamer.score += 100
             sounds.Sound('points').play()
@@ -75,7 +88,6 @@ class Bonus(pygame.sprite.Sprite):
             sounds.Sound('heal').play()
             return
 
-
     def update(self, tick, game):
-        self.__movement__(tick)
-        self.__collide_controller__(game)
+        self.__movement(tick)
+        self.__collide_controller(game)

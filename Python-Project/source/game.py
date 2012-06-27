@@ -5,6 +5,7 @@ import player
 import enemy
 import stats
 
+
 class Game:
 
     player_pos = (400, 500)
@@ -19,6 +20,14 @@ class Game:
     e_dmg_level = tuple()
 
     def __init__(self, screen):
+        """Initializes game components
+
+        Sets background.
+        Call the player creation.
+        Call the enemies creation.
+        Call the game bounds creation.
+
+        """
 
         self.screen_size = screen.get_size()
         self.game_level = 1
@@ -43,8 +52,9 @@ class Game:
         self.walls = self.__make_bounds()
         self.sprites.add(self.walls)
 
-
     def __make_bounds(self):
+        """Create game walls"""
+
         walls = pygame.sprite.Group()
         wall_image = pygame.image.load('images/wall.png')
         height = self.screen_size[1] - self.stat_bar_size
@@ -55,28 +65,31 @@ class Game:
                         self.screen_size[0] - self.bound_size) \
                 or y in (self.bound_size, height - self.bound_size):
                     wall = pygame.sprite.Sprite(walls)
-                    wall.image = wall_image 
+                    wall.image = wall_image
                     wall.rect = pygame.rect.Rect((x, y), wall_image.get_size())
         return walls
 
-
     def __load_enemies(self):
+        """Create enemies for current game level"""
+
         enemies = pygame.sprite.Group()
         for y in self.enemy_y_range:
             for x in self.enemy_x_range:
                 enemy_bot = enemy.Enemy((x, y), self.game_level, enemies)
-        self.__set_enemy_stats__(enemies)
+        self.__set_enemy_stats(enemies)
         return enemies
 
-    
-    def __set_enemy_stats__(self, enemies):
+    def __set_enemy_stats(self, enemies):
+        """Gets enemies stats for current level"""
+
         for enemy in enemies:
             self.e_dmg_level = enemy.dmg_level
             self.e_health = enemy.health_level.get(enemy.level)
             break
 
+    def __load_game_stats(self):
+        """Gets and displays all game statuses"""
 
-    def __load_game_stats__(self):
         self.stats = self.stat_class.load_stats()
         health = self.stats.get('health')
         shield = self.stats.get('shield')
@@ -101,12 +114,12 @@ class Game:
         screen.blit(e_dmg_lvl[0], e_dmg_lvl[1])
         screen.blit(e_health[0], e_health[1])
 
+    def __load_boss(self):
+        """Creates the boss for the final level"""
 
-    def __load_boss__(self):
         self.boss = enemy.Enemy((-400, 60), self.game_level, self.enemies)
         self.sprites.add(self.boss)
-        self.__set_enemy_stats__(self.enemies)
-
+        self.__set_enemy_stats(self.enemies)
 
     def main(self, player_name):
         self.player_name = player_name
@@ -116,7 +129,6 @@ class Game:
             self.events = pygame.event.get()
             self.stat_class = stats.Stats(self)
             for event in self.events:
-                print(event)
                 if event.type == pygame.QUIT:
                     self.stat_class.print_scores()
                     return
@@ -128,26 +140,25 @@ class Game:
             enemy_count = self.enemies.sprites().__len__()
 
             if enemy_count < 1 and self.game_level <= 5:
-                self.game_level += 1 
+                self.game_level += 1
 
             if enemy_count < 1 and self.game_level <= 4:
                 self.enemies = self.__load_enemies()
                 self.sprites.add(self.enemies)
             if enemy_count < 1 and self.game_level == 5:
-                self.__load_boss__()
+                self.__load_boss()
 
             self.sprites.update(tick / 1000., self)
             screen.blit(self.background, self.bg_img_pos)
             self.sprites.draw(screen)
-            self.__load_game_stats__()
+            self.__load_game_stats()
             pygame.display.flip()
-
 
 if __name__ == '__main__':
     player_name = input("Enter your name: ")
     pygame.init()
     screen = pygame.display.set_mode(
-            (1000,700), 
-            pygame.HWSURFACE|pygame.DOUBLEBUF
+            (1000, 700),
+            pygame.HWSURFACE | pygame.DOUBLEBUF
             )
     Game(screen).main(player_name)

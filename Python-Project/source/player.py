@@ -6,13 +6,14 @@ import random
 import sounds
 import effects
 
+
 class Player(pygame.sprite.Sprite):
 
     gun_cooldown = 0
     gun_cooldown_delay = 0.3
     gun_overflow = 0
     gun_overflow_max = 50
-    gun_overflow_step = 6 
+    gun_overflow_step = 6
     gun_overflow_step_back = 10
     gun_direction = -1
     gun_type = 'green'
@@ -24,7 +25,7 @@ class Player(pygame.sprite.Sprite):
     health = 100
     shield = 50
     shield_step_back = 1
-    
+
     move_speed = 300
 
     kills = 0
@@ -36,8 +37,12 @@ class Player(pygame.sprite.Sprite):
         self.rect = pygame.rect.Rect(location, self.image.get_size())
         self.radius = 22
 
-
     def __movement(self, tick):
+        """Manages the movement of the player
+
+        Changes player image depending of the movement
+
+        """
         img_left = pygame.image.load('images/player_left.png')
         img_right = pygame.image.load('images/player_right.png')
         img_original = pygame.image.load('images/player.png')
@@ -62,14 +67,20 @@ class Player(pygame.sprite.Sprite):
 
         for event in pygame.event.get():
             if event.type == pygame.KEYUP \
-                    and event.key == pygame.K_LEFT:
-               self.image = img_original
+                and event.key == pygame.K_LEFT:
+                self.image = img_original
             if event.type == pygame.KEYUP \
-                    and event.key == pygame.K_RIGHT:
-               self.image == img_original
-
+                and event.key == pygame.K_RIGHT:
+                self.image == img_original
 
     def __collide_controller(self, game, last):
+        """Checks for collusions
+
+        Check for collusion with walls and enemies.
+        Kill the player if collided with enemy.
+        The enemy dies too.
+
+        """
         new = self.rect
 
         for cell in pygame.sprite.spritecollide(self, game.walls, False):
@@ -94,24 +105,31 @@ class Player(pygame.sprite.Sprite):
                 effects.Explosion(self.rect.midtop, game, game.sprites)
                 sounds.Sound('death')
 
-
     def __shoot(self, gun1, events, dt, game):
+        """Manages the shooting of the player
+
+        Player shoot with pressing the SPACE key.
+        The weapon power and bullet count depend on
+        the level of the weapon (gun_level)
+        Manages the weapon cooldown.
+
+        """
         key = pygame.key.get_pressed()
         if key[pygame.K_SPACE] and not self.gun_cooldown and self.can_shoot:
             gun_power = self.__get_gun_power()
             idx = self.gun_level
             while idx > 0:
                 gun.Gun(
-                        self.gun_type, 
-                        gun_power, 
-                        self.gun_speed, 
-                        False, 
-                        self.__get_gun_position__(idx), 
-                        self.gun_direction, 
+                        self.gun_type,
+                        gun_power,
+                        self.gun_speed,
+                        False,
+                        self.__get_gun_position(idx),
+                        self.gun_direction,
                         game.sprites
-                        )    
+                        )
                 idx -= 1
-                
+
             self.gun_cooldown = self.gun_cooldown_delay
             self.gun_overflow += self.gun_overflow_step
             if self.gun_overflow >= self.gun_overflow_max:
@@ -120,8 +138,9 @@ class Player(pygame.sprite.Sprite):
             sounds.Sound('shot').play()
         self.gun_cooldown = max(0, self.gun_cooldown - dt)
 
+    def __get_gun_position(self, idx):
+        """Get the position of the weapon bullets"""
 
-    def __get_gun_position__(self, idx):
         if self.gun_level == 1 and idx == 1:
             return self.rect.midtop
         if self.gun_level == 2 and idx == 1:
@@ -135,30 +154,38 @@ class Player(pygame.sprite.Sprite):
         if self.gun_level == 3 and idx == 3:
             return self.rect.midright
 
-
     def __get_gun_power(self):
+        """Get weapon power
+
+        Gets random weapon power in the range
+        put in the self.gun_powers tuple.
+
+        """
         rand = random.randint(self.gun_powers[0], self.gun_powers[1])
         return rand
 
-
     def __zero_stats(self):
+        """Reset the player stats when player is killed"""
+
         self.health = 0
         self.shield = 0
-
+        self.gun_overflow = 0
 
     def __gun_overflow_check(self, tick):
+        """Check if the weapon overflow bound is reached"""
+
         if self.gun_overflow > 0:
             self.gun_overflow -= self.gun_overflow_step_back * tick
             self.gun_overflow = max(0, self.gun_overflow)
             if self.gun_overflow == 0:
                 self.can_shoot = True
 
-
     def __shield_check(self, tick):
+        """Check if the shield is down"""
+
         if self.shield > 0:
             self.shield -= self.shield_step_back * tick
             self.shield = max(0, self.shield)
-
 
     def update(self, tick, game):
         last_position = self.rect.copy()
