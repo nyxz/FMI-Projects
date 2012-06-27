@@ -4,16 +4,16 @@ import unittest
 import pygame
 from player import Player
 
+
 class TestPlayer(unittest.TestCase):
 
     def setUp(self):
         self.group = pygame.sprite.Group()
         self.player = Player((0, 0), self.group)
 
-
     def testPlayerHasImage(self):
-       self.assertNotEqual(self.player.image, None,\
-               'Player does not have image') 
+        self.assertNotEqual(self.player.image, None,\
+               'Player does not have image')
 
     def testPlayerHasRect(self):
         self.assertNotEqual(self.player.rect, None,\
@@ -42,8 +42,6 @@ class TestPlayer(unittest.TestCase):
     def testPlayerHasShield(self):
         self.assertNotEqual(self.player.shield, None,\
                 'Player shield is not set')
-
-
 
 if __name__ == '__main__':
     unittest.main()

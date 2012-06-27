@@ -28,7 +28,7 @@ class Game:
         Call the game bounds creation.
 
         """
-
+        self.screen = screen
         self.screen_size = screen.get_size()
         self.game_level = 1
         self.e_dmg_level = 0
@@ -114,6 +114,24 @@ class Game:
         screen.blit(e_dmg_lvl[0], e_dmg_lvl[1])
         screen.blit(e_health[0], e_health[1])
 
+    def __load_congratz(self):
+        self.stat_class.congratz()
+        congr = self.stats.get('congratz')
+        screen.blit(congr[0], congr[1])
+
+    def __load_lose(self):
+        self.stat_class.lose()
+        lose = self.stats.get('lose')
+        screen.blit(lose[0], lose[1])
+
+    def __check_status(self):
+        if self.players.sprites().__len__() < 1:
+            self.__load_lose()
+            return
+        elif self.enemies.sprites().__len__() < 1\
+            and self.game_level > 5:
+            self.__load_congratz()
+
     def __load_boss(self):
         """Creates the boss for the final level"""
 
@@ -152,6 +170,7 @@ class Game:
             screen.blit(self.background, self.bg_img_pos)
             self.sprites.draw(screen)
             self.__load_game_stats()
+            self.__check_status()
             pygame.display.flip()
 
 if __name__ == '__main__':

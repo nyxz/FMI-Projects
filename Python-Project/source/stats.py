@@ -30,6 +30,7 @@ class Stats:
 
     def __init__(self, game):
         self.game = game
+        self.screen = game.screen
         self.player = game.gamer
         self.overflow_color = self.color_green
         self.health_color = self.color_green
@@ -190,6 +191,28 @@ class Stats:
         db[self.db_rec] = new
         db.close()
         return items
+
+    def congratz(self):
+        font = pygame.font.Font(None, 100)
+        congratz = "YOU WON"
+        congratz_txt = font.render(congratz, 1, self.color)
+
+        cgrtz_rect = congratz_txt.get_rect()
+        cgrtz_rect.centerx = self.screen.get_rect().centerx
+        cgrtz_rect.centery = self.screen.get_rect().centery
+
+        self.stats.__setitem__('congratz', (congratz_txt, cgrtz_rect))
+
+    def lose(self):
+        font = pygame.font.Font(None, 100)
+        lose = "GAME OVER"
+        lose_txt = font.render(lose, 1, self.color_red)
+
+        lose_rect = lose_txt.get_rect()
+        lose_rect.centerx = self.screen.get_rect().centerx
+        lose_rect.centery = self.screen.get_rect().centery
+
+        self.stats.__setitem__('lose', (lose_txt, lose_rect))
 
     def print_scores(self):
         """Print the high scores."""

@@ -86,7 +86,7 @@ class Gun(pygame.sprite.Sprite):
     def __check_death__(self, game, gamer):
         """Check if the player is dead."""
         if gamer.health <= 0:
-            gamer.health = 0
+            gamer._zero_stats()
             gamer.kill()
             effects.Explosion(gamer.rect.midtop, game, game.sprites)
             sounds.Sound('death').play()

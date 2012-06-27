@@ -100,7 +100,7 @@ class Player(pygame.sprite.Sprite):
                 effects.Explosion(enemy.rect.midtop, game, game.sprites)
                 sounds.Sound('death')
 
-                self.__zero_stats()
+                self._zero_stats()
                 self.kill()
                 effects.Explosion(self.rect.midtop, game, game.sprites)
                 sounds.Sound('death')
@@ -164,7 +164,7 @@ class Player(pygame.sprite.Sprite):
         rand = random.randint(self.gun_powers[0], self.gun_powers[1])
         return rand
 
-    def __zero_stats(self):
+    def _zero_stats(self):
         """Reset the player stats when player is killed"""
 
         self.health = 0

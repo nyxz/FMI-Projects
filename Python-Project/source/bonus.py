@@ -42,9 +42,10 @@ class Bonus(pygame.sprite.Sprite):
 
     def __collide_controller(self, game):
         """If bonus collide with player reward the player."""
-        if pygame.sprite.collide_circle(self, game.gamer):
-            self.__reward_player(game)
-            self.kill()
+        for gamer in game.players.sprites():
+            if pygame.sprite.collide_circle(self, gamer):
+                self.__reward_player(game)
+                self.kill()
 
     def __reward_player(self, game):
         """Rewar the player with the bonus taken.

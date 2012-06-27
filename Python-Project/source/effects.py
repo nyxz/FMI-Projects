@@ -35,10 +35,11 @@ class Explosion(pygame.sprite.Sprite):
 
     def __evolution(self, tick):
         """Go through all explosion frames."""
-        if self.idx >= 16:
+        if self.idx > self.expl_frames.__len__() - 1:
             self.kill()
-        self.image = self.expl_frames[self.idx]
-        self.idx += 1
+        else:
+            self.image = self.expl_frames[self.idx]
+            self.idx += 1
 
     def update(self, tick, game):
         self.__evolution(tick)
