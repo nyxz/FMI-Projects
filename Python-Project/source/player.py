@@ -26,7 +26,7 @@ class Player(pygame.sprite.Sprite):
     shield = 50
     shield_step_back = 1
 
-    move_speed = 300
+    move_speed = 270 
 
     kills = 0
     score = 0

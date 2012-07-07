@@ -25,7 +25,7 @@ class Enemy(pygame.sprite.Sprite):
     direction = 1
     gun_cooldown = 4
     gun_bullets_rate = 800
-    BOSS_SPEED = 170
+    BOSS_SPEED = 250
     REGULAR_SPEED = 100
 
     def __init__(self, location, game_level, *groups):
